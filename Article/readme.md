@@ -5,3 +5,4 @@
 2. [Video & Audio Tags](https://ansariyasirarfat.hashnode.dev/video-audio-tags)
 
 3. [The Input (Form Input) element](https://ansariyasirarfat.hashnode.dev/the-input-form-input-element)
+4. [CSS' journey begins with Selectors.](https://ansariyasirarfat.hashnode.dev/css-journey-begins-with-selectors)
