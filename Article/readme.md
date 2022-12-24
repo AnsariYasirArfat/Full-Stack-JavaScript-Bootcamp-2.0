@@ -6,4 +6,5 @@
 4. [CSS' journey begins with Selectors.](https://ansariyasirarfat.hashnode.dev/css-journey-begins-with-selectors)
 5. [Let's structure elements in the CSS box.](https://ansariyasirarfat.hashnode.dev/lets-structure-elements-in-the-css-box)
 6. [CSS Positions layout.](https://ansariyasirarfat.hashnode.dev/our-next-stop-is-the-css-positions-layout)
-7. [CSS Flexbox](https://ansariyasirarfat.hashnode.dev/css-flexbox-more-flexible-than-positions)
+7. [CSS Flexbox.](https://ansariyasirarfat.hashnode.dev/css-flexbox-more-flexible-than-positions)
+8. [CSS Grid layouts.](https://ansariyasirarfat.hashnode.dev/css-grid-layouts)
