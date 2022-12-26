@@ -8,3 +8,4 @@
 6. [CSS Positions layout.](https://ansariyasirarfat.hashnode.dev/our-next-stop-is-the-css-positions-layout)
 7. [CSS Flexbox.](https://ansariyasirarfat.hashnode.dev/css-flexbox-more-flexible-than-positions)
 8. [CSS Grid layouts.](https://ansariyasirarfat.hashnode.dev/css-grid-layouts)
+9. [CSS Media Queries](https://ansariyasirarfat.hashnode.dev/basic-of-css-media-queries)
