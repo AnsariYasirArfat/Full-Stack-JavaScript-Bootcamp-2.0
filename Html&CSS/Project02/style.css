@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1440px;
+    height: 100vh;
+    margin: auto; /* Auto */
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: black;
+    height: 10vh;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    position: absolute;
+    left:0; 
+    right:0; 
+}
+.logo{
+      height: 30px;
+     }
+.line {
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    position: relative;
+    right: 150px;
+    
+  }
+
+  .grow-list .list{
+    display: flex;
+    align-items: center; 
+    /* background-color: aqua; */
+    /* position: relative;
+    left:200px; */
+   } 
+   
+   .list-item{
+    margin-right: 50px;
+    color: white;
+    list-style: none;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+    right: 250px; 
+    } 
+    .button-small{
+        background-color: rgb(242, 11, 219);
+        color: white;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        }
+        .hero{
+            height:90vh;
+            position: absolute; 
+            left:0; 
+            right:0; 
+            bottom:0; 
+            background-image: url(./assets/bg1.png);
+            background-size:100% 100%; 
+            background-color: rgb(48, 47, 47);  /*bkg color, In case background-image fail to appear */
+            }
+
+.hero-heading{
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    margin: 150px 350px 10px 350px;
+  }
+
+.hero-description{
+    text-align: center;
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.button-large{
+    background-color: rgb(242, 11, 219);
+    color: white;
+    font-size: 20px;
+    padding: 15px 25px; 
+    border: none;
+    border-radius: 10px;
+    margin: 3% 40% 20% 40%;
+}
