@@ -1,4 +1,4 @@
-# Html and CSS Project 1:- Home page of SEO Master. 
+# Html & CSS Project 1:- Home page of SEO Master. 
 
 This project is made just using Html & CSS.
 

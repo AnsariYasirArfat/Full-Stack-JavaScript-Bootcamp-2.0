@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #F9F5ED;
+    overflow: hidden;
+}
+nav{
+    padding: 30px 10%;
+    height: 10vh;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;
+    /* gap: 50px; */
+    font-weight: 500;
+}
+
+
+/* CSS for HERO Section */
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    height: 90vh;
+}
+
+.leftmain{
+    width: 40%;
+}
+
+.leftmain h1{
+    font-size: 60px;
+}
+
+.leftmain p{
+    margin: 5% 0;
+}
+
+.leftmain button{
+    padding: 15px 20px;
+    border: none;
+    background-color: #3B855B;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.rightmain{
+    width: 50%; 
+    margin-left: 15%;
+}
+
+.Upper img{
+    margin-right: 20px;
+    object-fit: contain;
+    width: 220px;
+ }
+.Lower img{
+    margin-top: 20px;
+    object-fit: contain;
+    width: 460px;
+}

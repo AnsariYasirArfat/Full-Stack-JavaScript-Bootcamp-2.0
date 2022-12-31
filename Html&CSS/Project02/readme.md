@@ -1,4 +1,4 @@
-# Html and CSS Project 2:- Home page of Crypto Market. 
+# Html & CSS Project 2:- Home page of Crypto Market. 
 
 This project is made just using Html & CSS.
 

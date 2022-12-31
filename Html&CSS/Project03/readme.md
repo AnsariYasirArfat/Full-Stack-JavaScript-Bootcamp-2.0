@@ -1,4 +1,4 @@
-# Html and CSS Project 3:- Home page of Fashion Hub. 
+# Html & CSS Project 3:- Home page of Fashion Hub. 
 
 This project is made just using Html & CSS.
 
