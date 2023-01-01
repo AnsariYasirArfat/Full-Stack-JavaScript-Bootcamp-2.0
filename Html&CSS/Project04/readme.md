@@ -1,4 +1,4 @@
-# Html & CSS Project 4:- Home page of Headphones for meditation. 
+# Html & CSS Project 4:- Home page of Headphones. 
 
 This project is made just using Html & CSS.
 
