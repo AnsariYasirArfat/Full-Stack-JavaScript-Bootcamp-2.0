@@ -8,4 +8,4 @@ This project is made just using Html & CSS.
 
 ## Here is Output:
 
-![output](./output.png)
+![output](./Output.png)
