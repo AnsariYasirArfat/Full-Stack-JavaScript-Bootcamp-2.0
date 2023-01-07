@@ -10,14 +10,14 @@ Checkout my blog here on [CSS Selector & its types](https://ansariyasirarfat.has
 ![output](01.%20Universal%20selector/output.png)
 
 
-## [02. Individual Selector ]()
+## [02. Individual Selector ](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/02.%20Individual%20Selector)
 
 [![Website link](https://img.shields.io/badge/Website-Link-green)](https://individual-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
 ![output](./02.%20Individual%20Selector/output.png)
 
 
-## [03. Class and Id Selector ]()
+## [03. Class and Id Selector ](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/03.%20Class%20and%20Id%20Selector)
 [![Website link](https://img.shields.io/badge/Website-Link-green)](https://class-and-id-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
 ![output](./03.%20Class%20and%20Id%20Selector/output.png)
