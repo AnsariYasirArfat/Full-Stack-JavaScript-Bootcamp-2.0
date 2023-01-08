@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Selctor types</title>
+    <Style>
+        div li {
+            color: chartreuse;
+            background-color: brown;
+            list-style-type: circle;
+        }
+    </Style>
+</head>
+
+<body>
+    <h1 style="color: green; text-align: center;">
+        Inside an element Selector:
+    </h1>
+    <h4 style="text-align:center;">In this example two Combined selectors <b>div</b> and <b>li</b> we are taking.</h4>
+    <div>
+        <ol>
+            <h3>List No. 1</h3>
+            <p>Below List will be getting selected as its elements are matching with 2nd selector ( li ) and its
+                ancestor element matches with the first selector ( div ). </p>
+            <li>item1</li>
+            <li>item2</li>
+            <li>item3</li>
+        </ol>
+    </div>
+    <hr>
+    <ul>
+        <h3> List No. 2 </h3>
+        <p>Below list will not be getting selected as its ancestor element doesn't match with the first selector ( div
+            ).
+        </p>
+        <li>item2</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+    <hr>
+</body>
+
+</html>
