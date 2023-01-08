@@ -23,49 +23,49 @@ Checkout my blog here on [CSS Selector & its types](https://ansariyasirarfat.has
 ![output](./03.%20Class%20and%20Id%20Selector/output.png)
 
 
-<!-- ## [04. ]()
+## [04. Chained Selector]()
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://chained-selector-in-css.netlify.app/) *[click the button to view the website]* 
+### Here is Output:    
+![output](./04.%20Chained%20Selector/output.png)
+
+
+
+<!-- ## [05. ]()
 [![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output]() -->
 
 
 
-## [05. ]()
+
+<!-- ## [06. ]()
 [![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output]() -->
 
 
 
-
-## [06. ]()
+<!-- ## [07. ]()
 [![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output]() -->
 
-
-
-## [07. ]()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
-### Here is Output:    
-![output]()
-
-
+<!-- 
 ## [08. ]()
 [![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output]() -->
 
 
-
+<!-- 
 ## [09. ]()
 [![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output]() -->
 
 
 
-
+<!-- 
 ## [10. ]()
 [![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
 ### Here is Output:    
