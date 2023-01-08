@@ -23,25 +23,25 @@ Checkout my blog here on [CSS Selector & its types](https://ansariyasirarfat.has
 ![output](./03.%20Class%20and%20Id%20Selector/output.png)
 
 
-## [04. Chained Selector]()
+## [04. Chained Selector](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/04.%20Chained%20Selector)
 [![Website link](https://img.shields.io/badge/Website-Link-green)](https://chained-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
 ![output](./04.%20Chained%20Selector/output.png)
 
 
 
-<!-- ## [05. ]()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [05. Combined Selector ](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/05.%20Combined%20Selector)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://combined-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./05.%20Combined%20Selector/output.png)
 
 
 
 
-<!-- ## [06. ]()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [06. Descendant selector ](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/06.%20Descendant%20selector)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://descendent-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./06.%20Descendant%20selector/output.png)
 
 
 
