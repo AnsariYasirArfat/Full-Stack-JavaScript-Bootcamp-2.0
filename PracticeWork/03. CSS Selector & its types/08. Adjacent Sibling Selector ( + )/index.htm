@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Selctor types</title>
+    <Style>
+        .sibling+li {
+            color: white;
+            background-color: green;
+            list-style: disc;
+        }
+
+        em+i {
+            color: rgb(81, 26, 134);
+            background-color: rgb(203, 161, 243);
+        }
+    </Style>
+</head>
+
+<body style="text-align: center;">
+    <h1>Adjacent Sibling Selector:</h1>
+    <ul><b>First example</b>
+        <hr>
+        <li class="sibling">Next item will be styled</li>
+        <li>Styled Item </li>
+        <li>Item with no effect</li>
+        <hr>
+    </ul>
+    <b>Second example</b>
+    <br>
+    <em>Adjacent sibling sentence will be styled.</em>
+    <i>This line will be highlighted.</i>
+    <i>This line will not be affected by selector.</i>
+    <hr>
+</body>
+
+</html>

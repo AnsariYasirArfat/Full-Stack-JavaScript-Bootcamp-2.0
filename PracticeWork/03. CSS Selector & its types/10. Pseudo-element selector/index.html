@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Pseudo-elements</title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    h1,
+    h3 {
+      color: orange;
+    }
+
+    /* ::before Pseudo-element */
+    .before::before {
+      content: '"';
+      color: green;
+      font-size: 30px;
+    }
+
+    /* ::after Pseudo-element */
+    .after::after {
+      content: '"';
+      color: green;
+      font-size: 30px;
+    }
+
+    /* :hover Pseudo-element  */
+    .hover {
+      border: 2px black;
+      background-color: orange;
+      width: 350px;
+      height: 180px;
+      font-size: 40px;
+      text-align: center;
+      margin: auto;
+      padding: 10px;
+    }
+
+    .hover:hover {
+      background-color: green;
+      width: 500px;
+      height: 300px;
+      font-size: 60px;
+    }
+
+    /* :visited Pseudo-class */
+    a:visited {
+      color: red;
+    }
+
+    /* :focus Pseudo-class */
+    input {
+      float: right;
+    }
+
+    form {
+      margin: 0 auto;
+      width: 300px;
+      height: 15s0px;
+      line-height: 32px;
+      text-align: center;
+    }
+
+    /* :focus Pseudo-class */
+    input:focus {
+      background-color: rgb(147, 92, 92);
+    }
+
+    /* :link Pseudo-class */
+    .link:link {
+      background-color: yellow;
+      font-size: 60px;
+    }
+
+    /* :nth-child() Pseudo-class */
+    div ul li:nth-child(even) {
+      background-color: chartreuse;
+    }
+
+    li:first-child {
+      background-color: blue;
+      color: brown;
+    }
+
+    li:last-child {
+      background-color: brown;
+      color: blue;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Pseudo-elements</h1>
+  <h3>::before Pseudo-element</h3>
+  <i class="before">We used Pseudo-element ( ::before ) to add Quotation marks before this line in green color.</i>
+  <hr>
+  <h3>::after Pseudo-element</h3>
+  <i class="after">We used Pseudo-element ( ::after ) to add Quotation marks after this line in green color.</i>
+  <hr>
+  <h3>:hover Pseudo-element</h3>
+  <div class="hover">My colour and size will change when you put your mouse cursor over me!</div>
+  <hr>
+
+
+  <h3>:visited Pseudo-class</h3>
+  <p>The link color will change blue to red if you visit the link. It's because we use :visited pseudo-class</p>
+  <a href="https://www.amazon.com/">Amazon</a>
+  <hr>
+
+
+  <h3>:focus Pseudo-class</h3>
+  <p>When you start to fill up this form bellow its elements will get focus by changing the style.</p>
+  <form action="">
+    <p> <label for="name">Name:</label>
+      <input type="text" placeholder="Enter your name" name="name">
+    </p>
+    <p><label for="email">Email-Id:</label>
+      <input type="email" placeholder="Enter your email id" name="email">
+    </p>
+    <p><label for="Password">Password:</label>
+      <input type="password" name="Password" placeholder="Enter your password" />
+    </p>
+  </form>
+  <hr>
+
+  <h3>:link Pseudo-class</h3>
+  <P>Bellow link has pre visited properties one you click on it then style will change</P>
+  <a class="link" href="https://www.facebook.com/">facebook</a>
+  <hr>
+  <h3>:nth-child() Pseudo-class </h3>
+  <div>
+    <ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+      <li>6</li>
+      <li>7</li>
+      <li>8</li>
+      <li>9</li>
+    </ul>
+  </div>
+  <hr>
+  <h3>:first-child & :last-child</h3>
+  <ul class="child">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
+  <ol class="child">
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+  </ol>
+
+  <hr>
+</body>
+
+</html>
