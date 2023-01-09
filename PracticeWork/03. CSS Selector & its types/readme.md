@@ -45,28 +45,28 @@ Checkout my blog here on [CSS Selector & its types](https://ansariyasirarfat.has
 
 
 
-<!-- ## [07. ]()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [07. Direct Child Selector](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/07.%20Direct%20Child%20Selector)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://direct-chid-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./07.%20Direct%20Child%20Selector/output.png)
 
-<!-- 
-## [08. ]()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+
+## [08. Adjacent Sibling Selector ](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/08.%20Adjacent%20Sibling%20Selector%20(%20%2B%20))
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://adjacent-sibling-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./08.%20Adjacent%20Sibling%20Selector%20(%20%2B%20)/output.png)
 
 
-<!-- 
-## [09. ]()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+
+## [09. General Sibling Selector ](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/09.%20General%20Sibling%20Selector%20(~))
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://general-sibling-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./09.%20General%20Sibling%20Selector%20(~)/output.png)
 
 
 
-<!-- 
-## [10. ]()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+
+## [10. Pseudo-element selector ](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/03.%20CSS%20Selector%20%26%20its%20types/10.%20Pseudo-element%20selector)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://pseudo-element-selector-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./10.%20Pseudo-element%20selector/output.png)

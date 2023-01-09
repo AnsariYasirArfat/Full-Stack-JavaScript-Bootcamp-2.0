@@ -6,6 +6,7 @@
   <style>
     body {
       text-align: center;
+
     }
 
     h1,
@@ -76,18 +77,22 @@
     }
 
     /* :nth-child() Pseudo-class */
-    div ul li:nth-child(even) {
+    .even-child ul li:nth-child(even) {
       background-color: chartreuse;
     }
 
-    li:first-child {
+    .first-child li:first-child {
       background-color: blue;
       color: brown;
     }
 
-    li:last-child {
+    .last-child li:last-child {
       background-color: brown;
       color: blue;
+    }
+
+    ul{
+list-style: none;
     }
   </style>
 </head>
@@ -131,35 +136,38 @@
   <a class="link" href="https://www.facebook.com/">facebook</a>
   <hr>
   <h3>:nth-child() Pseudo-class </h3>
-  <div>
+  <div class="even-child">
+    <p>Only Even even-child gets rendered because <span style="color: orange;">:nth-child( <span style="color: chartreuse;" >even</span>)</span> Pseudo-class is used here</p>
     <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>4</li>
-      <li>5</li>
-      <li>6</li>
-      <li>7</li>
-      <li>8</li>
-      <li>9</li>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+      <li>Item 7</li>
+      <li>Item 8</li>
+      <li>Item 9</li>
     </ul>
   </div>
   <hr>
-  <h3>:first-child & :last-child</h3>
-  <ul class="child">
+  <h3>:first-child </h3>
+  <ul class="first-child">
     <li>Item 1</li>
     <li>Item 2</li>
     <li>Item 3</li>
     <li>Item 4</li>
     <li>Item 5</li>
   </ul>
-  <ol class="child">
-    <li>Item</li>
-    <li>Item</li>
-    <li>Item</li>
-    <li>Item</li>
-    <li>Item</li>
-  </ol>
+  <hr>
+  <h3>:last-child</h3>
+  <ul class="last-child">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
 
   <hr>
 </body>
