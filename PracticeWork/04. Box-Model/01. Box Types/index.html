@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: x-large;
+        }
+
+        .block h1 {
+            display: block;
+            background-color: aqua;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .block .block-box {
+            background-color: blueviolet;
+            color: aliceblue;
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .lorem {
+            margin: 100px;
+            padding: 50px 100px;
+            background-color: chartreuse;
+        }
+
+        .inline h1 {
+            display: inline;
+            background-color: aqua;
+        }
+
+        .inline {
+            background-color: rgb(189, 186, 186);
+            padding: 100px;
+        }
+
+        strong {
+            background-color: blueviolet;
+            margin: 15px;
+            padding: 20px;
+        }
+
+        em {
+            background-color: brown;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="block">
+        <h1>Block Box</h1>
+        <p class="block-box">The box will break onto a new line.</p>
+        <p class="block-box">Padding, margin and border will cause other elements to be pushed away from the box.</p>
+        <p class="lorem">Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae omnis explicabo,
+            iste nemo totam odit sapiente porro non ab nobis optio recusandae nam soluta officia doloremque obcaecati,
+            ut et animi incidunt autem nulla! Nam, maxime non sed veniam omnis, placeat minus at eligendi id ut in
+            corrupti dolore labore necessitatibus aperiam officiis qui unde. Voluptatum, dolores? Ad itaque suscipit
+            officiis, labore accusamus in tempora facere quam aut atque libero deserunt. Nemo repellat alias fugit autem
+            illum. Officia aut ea nam vero veniam quibusdam nesciunt nemo ducimus perferendis iusto ut nihil asperiores
+            id necessitatibus voluptatum, accusantium fugiat debitis corporis expedita voluptatibus. dolor sit amet
+            consectetur adipisicing elit. Accusantium suscipit voluptatibus, obcaecati veniam, labore placeat corrupti
+            voluptatem distinctio provident cupiditate pariatur. Similique, dolor aperiam corporis vitae consectetur
+            animi nesciunt a!</p>
+    </div>
+    <hr>
+    <div class="inline">
+        <h1>Inline Box</h1>
+        <p>The box will not break onto a new line.</p>
+        <p>The <em>width</em> and <strong>height</strong> properties will not apply.</p>
+        <p>Horizontal padding, margins, and borders will apply and will cause other <em>Inline boxes</em> to move away
+            from the box.</p>
+    </div>
+    <hr>
+</body>
+
+</html>
