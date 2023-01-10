@@ -1,7 +1,7 @@
 # Box-Model and its
 In this assignment, CSS selectors and its types explained. 
 
-Checkout my blog here on [CSS Selector & its types](https://ansariyasirarfat.hashnode.dev/css-journey-begins-with-selectors), where I explained all selectors in detail.
+Checkout my blog here on [CSS Box-Model](https://ansariyasirarfat.hashnode.dev/lets-structure-elements-in-the-css-box), where I explained all properties box-model in detail.
 
 --- 
 
