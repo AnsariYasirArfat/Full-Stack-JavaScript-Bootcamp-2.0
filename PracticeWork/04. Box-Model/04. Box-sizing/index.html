@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box-sizing</title>
+    <style>
+        body {
+            text-align: center;
+            font-size: 40px;
+            margin: 5%;
+        }
+
+        h1 {
+            background-color: rgb(0, 0, 0);
+            font-size: 100px;
+            margin: 10px;
+            padding: 10px;
+            color: rgb(162, 225, 59);
+        }
+
+        .content {
+            border: solid rgb(0, 0, 0) 10px;
+            box-sizing: content-box;
+            padding: 30px;
+            width: 300px;
+            background: rgb(162, 225, 59);
+            color: rgb(0, 0, 0);
+        }
+
+        .border {
+            border: solid rgb(0, 0, 0) 10px;
+            box-sizing: border-box;
+            padding: 30px;
+            width: 300px;
+            background: rgb(162, 225, 59);
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Box-sizing</h1>
+    <hr>
+    <P class="content">content-box</P>
+    <hr>
+    <P class="border">border-box</P>
+    <hr>
+</body>
+
+</html>
