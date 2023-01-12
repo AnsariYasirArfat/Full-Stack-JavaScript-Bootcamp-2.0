@@ -19,15 +19,15 @@ Checkout my blog here on [CSS Box-Model](https://ansariyasirarfat.hashnode.dev/l
 
 --- 
 
-<!-- 
-## []()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+
+## [03. Padding](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/04.%20Box-Model/03.%20Padding)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://padding-ways-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output](./03.%20Padding/output.png)
 
 --- 
 
-## []()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [04. Box-sizing](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/04.%20Box-Model/04.%20Box-sizing)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://box-sizing-in-css.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./04.%20Box-sizing/output.png)
