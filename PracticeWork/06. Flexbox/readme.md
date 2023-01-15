@@ -15,6 +15,30 @@ Checkout my blog here on [CSS Flexbox and its properties](https://ansariyasirarf
 ![output](./02.%20Flex-direction/output.png)
 
 
+## [](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/03.%20Flex-wrap)
+[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+### Here is Output:    
+![output]()
+
+
+## [](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/04.%20Justify-content)
+[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+### Here is Output:    
+![output]()
+
+
+## [](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/05.%20Align-items)
+[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+### Here is Output:    
+![output]()
+
+
+<!-- ## []()
+[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+### Here is Output:    
+![output]() -->
+
+
 <!-- ## []()
 [![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
 ### Here is Output:    
