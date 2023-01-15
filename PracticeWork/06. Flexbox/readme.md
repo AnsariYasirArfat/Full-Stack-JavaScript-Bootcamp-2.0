@@ -15,22 +15,22 @@ Checkout my blog here on [CSS Flexbox and its properties](https://ansariyasirarf
 ![output](./02.%20Flex-direction/output.png)
 
 
-## [](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/03.%20Flex-wrap)
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [03. Flex-wrap](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/03.%20Flex-wrap)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://flexwrap-ansariyasir.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output](./03.%20Flex-wrap/output.png)
 
 
-## [](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/04.%20Justify-content)
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [04. Justify-content](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/04.%20Justify-content)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://flex-justifycontent-ansariyasir.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output](./04.%20Justify-content/output.png)
 
 
-## [](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/05.%20Align-items)
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [05. Align-items](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/05.%20Align-items)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://flex-alignitems-ansariyasir.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]()
+![output](./05.%20Align-items/output.png)
 
 
 <!-- ## []()
