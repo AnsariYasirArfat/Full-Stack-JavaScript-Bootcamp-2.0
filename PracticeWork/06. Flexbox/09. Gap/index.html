@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Flex Gap</title>
+  <style>
+    .container {
+      border: 3px solid black;
+      /* height: 70vh; */
+      background-color: #758283;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 5%;
+      gap: 100px 50px;
+    }
+
+    p {
+      border: 3px solid black;
+      height: 150px;
+      width: 150px;
+      margin: 10px;
+      text-align: center;
+      border-radius: 7px;
+      font-size: x-large;
+    }
+
+    body {
+      text-align: center
+    }
+
+
+    .a {
+      background-color: #00ff6e;
+    }
+
+    .b {
+      background-color: #eeff00;
+    }
+
+    .c {
+      background-color: #ffb700;
+    }
+
+    .d {
+      background-color: #ff0000;
+    }
+
+    h3 {
+      background-color: #758283;
+      margin: 5%;
+      padding: 20px;
+      font-size: 30px;
+      color: #000000;
+      border: solid black 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <h3> gap: 100px 50px; [row-gap column-gap] </h3>
+  <div class="container">
+    <p class="a">One</p>
+    <p class="b">Two</p>
+    <p class="c">Three</p>
+    <p class="d">Four</p>
+    <p class="a">Five</p>
+    <p class="b">Six</p>
+    <p class="c">Seven</p>
+    <p class="d">Eight</p>
+    <p class="a">Nine</p>
+    <p class="b">Ten</p>
+    <p class="c">Eleven</p>
+    <p class="d">Twelve</p>
+  </div>
+  <hr>
+
+</body>
+
+</html>
