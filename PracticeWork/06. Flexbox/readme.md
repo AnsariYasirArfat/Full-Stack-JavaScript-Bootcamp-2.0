@@ -33,13 +33,23 @@ Checkout my blog here on [CSS Flexbox and its properties](https://ansariyasirarf
 ![output](./05.%20Align-items/output.png)
 
 
-<!-- ## []()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [06. Align-content](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/06.%20Align-content)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://flex-align-content-ansariyasir.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./06.%20Align-content/output.png)
 
 
-<!-- ## []()
-[![Website link](https://img.shields.io/badge/Website-Link-green)]() *[click the button to view the website]* 
+## [07. Align-self](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/07.%20Align-self)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://flex-align-self-ansariyasir.netlify.app/) *[click the button to view the website]* 
 ### Here is Output:    
-![output]() -->
+![output](./07.%20Align-self/output.png)
+
+## [08. Flex order](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/08.%20Flex%20order)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://flex-order-ansariyasir.netlify.app/) *[click the button to view the website]* 
+### Here is Output:    
+![output](./08.%20Flex%20order/output.png)
+
+## [09. Gap](https://github.com/AnsariYasirArfat/Full-Stack-JavaScript-Bootcamp-2.0/tree/main/PracticeWork/06.%20Flexbox/09.%20Gap)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://flex-gap-ansariyasir.netlify.app/) *[click the button to view the website]* 
+### Here is Output:    
+![output](./09.%20Gap/output.png)
