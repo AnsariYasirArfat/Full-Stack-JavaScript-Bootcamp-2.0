@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>gridtemplate</title>
+    <style>
+        .container{
+            background-color: gray;
+            height: 380px;
+            width: 550px;
+            margin: 3px;
+            padding: 5%;
+            display: grid;         
+            grid-template-columns : 90px 80px 100px;
+            grid-template-rows : 100px 100px 100px;
+            gap: 10px 20px;
+        }
+        .item{
+            border-radius: 5px;    
+            text-align: center;
+            background-color: rgb(0, 255, 229);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        </style>
+</head>
+<body style="text-align: center;">
+        <div class="container">
+        <div class="item one">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+</body>
+</html>

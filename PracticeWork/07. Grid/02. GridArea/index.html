@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Grid Area</title>
+    <style>
+         body{
+            text-align: center;
+            font-size: 20px;
+            background-color:#7fd0ff;
+            display: flex;  
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+             }
+        .container{
+            background-color: #edfbb8;
+            border: 2px solid;
+            width: 500px;
+            height: 300px;
+            display: grid;
+            margin: 40px 100px  ;
+            grid-template-areas: 
+             "header header header header"
+             "main main . sidebar"
+             "main main . sidebar"
+             "footer footer footer footer";
+            grid-template-columns: repeat(4, 100px);
+            grid-template-rows:repeat(4, 50px);
+            align-content: center;
+            justify-content: center;
+        }
+        .item{
+           color:black ;
+           font-size: 20px;
+           font-weight: 500;
+           display: flex;  
+           border: 3px solid black;
+           align-items: center;
+           justify-content: center;
+        }
+       .Header{
+        grid-area: header;
+        background-color:  #38B6FF;
+       }
+       .Main{
+        background-color: #C9E265;
+        grid-area: main;
+       }
+       .Sidebar{
+        background-color: #FFDE59;
+        grid-area: sidebar;
+       }
+       .Footer{
+        background-color: #DF8EF6;
+        grid-area: footer;
+       }
+    </style>
+</head>
+<body>
+    <h1>Grid Areas</h1>
+    <div class="container">
+        <div class ="item Header ">Header</div>
+        <div class ="item Main">Main Content</div>
+        <div class ="item Sidebar">Sidebar</div>
+        <div class ="item Footer">Footer</div> 
+      </div> 
+</body>
+</html>
