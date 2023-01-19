@@ -10,7 +10,7 @@ You can check it by clicking the button here.
 ## Here is Output Snapshot:
 ![output](output.gif)
 
-![output](output.png)
+
 
 
 

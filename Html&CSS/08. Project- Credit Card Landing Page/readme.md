@@ -1,16 +1,15 @@
-#  **Visual Studio Code (Clone) Project**
+#  **Credit Card Landing Page**
  
- **In this project landing page of Visual Studio Code is cloned using Html & Tailwind. It's not a responsive and functional website. Only focuses on designing aspects.**
+ **In this project landing page of Credit Card is cloned using Html & CSS. It's not a responsive and functional website. Only focuses on designing aspects.**
 
 You can check it by clicking the button here.
 
-[![Website link](https://img.shields.io/badge/Website-Link-green)](https://ansariyasir-vscode-clone.netlify.app/)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://ansariyasir-credit-card-landing-page.netlify.app/)
 
 
 ## Here is Output Snapshot:
 ![output](output.gif)
 
-![output](output.png)
 
 
 
