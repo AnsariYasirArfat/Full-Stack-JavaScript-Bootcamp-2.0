@@ -7,7 +7,7 @@ You can check it by clicking the button here.
 [![Website link](https://img.shields.io/badge/Website-Link-green)](https://ansariyasir-credit-card-landing-page.netlify.app/)
 
 
-## Here is Output Snapshot:
+## Here is Output:
 ![output](output.gif)
 
 
