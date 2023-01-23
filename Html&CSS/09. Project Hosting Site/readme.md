@@ -1,6 +1,6 @@
 #  **Hosting Site Landing Page**
  
- **In this project landing page of Hosting Site is cloned using Html & CSS. It's not a responsive and functional website. Only focuses on designing aspects.**
+ **In this project landing page of Hosting Site is made just using Html & CSS. It's not a responsive and functional website. Only focuses on designing aspects.**
 
 You can check it by clicking the button here.
 

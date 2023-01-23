@@ -1,6 +1,6 @@
 #  **Credit Card Landing Page**
  
- **In this project landing page of Credit Card is cloned using Html & CSS. It's not a responsive and functional website. Only focuses on designing aspects.**
+ **In this project landing page of Credit Card is made just using Html & CSS. It's not a responsive and functional website. Only focuses on designing aspects.**
 
 You can check it by clicking the button here.
 
