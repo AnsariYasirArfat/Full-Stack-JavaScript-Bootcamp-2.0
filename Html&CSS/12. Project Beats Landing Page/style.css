@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+    background-color: #0F0F10;
+    color: white;
+}
+
+
+
+/* common classes */
+.discription {
+    font-size: 14px;
+    color: #b6b4b4;
+    line-height: 34px;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+/* section 1 */
+.section1 {
+    width: 100vw;
+    position: relative;
+}
+
+.mainImage {
+    position: absolute;
+    left: 380px;
+    top: -150px;
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 36px 180px;
+}
+
+nav img {
+    margin-left: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 360px;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+nav button {
+    padding: 18px 54px;
+    font-size: 16px;
+    background-color: #1E1E21;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.main-section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.onear {
+    margin-left: 550px;
+}
+
+.sub-section1 {
+    margin-left: 420px;
+
+}
+
+h1 {
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.addtobag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E1E21;
+    width: 220px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 36px;
+}
+
+/* section 2 */
+.section2 {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 150px 300px;
+}
+
+/* section 3 */
+.section3 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 64px;
+}
+
+.sec3-b {
+    display: flex;
+    align-items: center;
+    padding-block: 50px;
+}
+
+.specsImage {
+    margin-left: 60px;
+}
+
+.specs {
+    margin-block: 16px;
+}
+
+.inright {
+    margin-left: 24px;
+}
+
+/* section 4 */
+.section4 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec4-b {
+    display: flex;
+    align-items: center;
+    padding: 64px 0;
+}
+
+.caseImage {
+    margin-right: 75px;
+}
+
+.info-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1E1E21;
+    width: 145px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 36px;
+    font-size: medium;
+}
+
+/* section 5 */
+.section5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 42px 132px;
+    margin: 102px 330px;
+    background-color: #1E1E21;
+    border-radius: 20px;
+}
+
+.buynow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    width: 145px;
+    height: 50px;
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-top: 36px;
+    font-size: medium;
+}
+
+/* section 6 */
+.section6 {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.style-sec {
+    margin-block: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40vw;
+}
+
+.colors {
+    background-color: #1E1E21;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 8px;
+    width: 150px;
+    height: 138px;
+    border-radius: 6px;
+    margin-right: 48px;
+    margin-bottom: 90px;
+}
+
+.headphone {
+    position: absolute;
+    top: -45px;
+    right: 30px;
+    width: 90px;
+    height: 115px;
+}
+
+.bag-icon {
+    padding: 6px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+/* section 7 */
+.section7 {
+    display: flex;
+    width: 100vw;
+    padding: 0px 30px 120px 400px;
+    justify-content: space-between;
+}
+
+.suscribe {
+    background-color: #1E1E21;
+    width: 315px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 28px;
+}
+
+.suscribe button {
+    background-color: black;
+    width: 120px;
+    height: 46px;
+    color: white;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 18px;
+    border-radius: 6px;
+}
+
+.social-media img {
+    margin-right: 15px;
+}
+
+.uparrow{
+    align-self: center;
+}
