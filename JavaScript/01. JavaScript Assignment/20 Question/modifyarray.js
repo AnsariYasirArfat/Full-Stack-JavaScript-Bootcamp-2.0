@@ -10,7 +10,7 @@ if (shoppingCart.indexOf('Sugar') === -1) {
   shoppingCart.push('Sugar');
 };
 
-// Removeing 'Honey'
+// Removing 'Honey'
 const honey = shoppingCart.indexOf('Honey');
 if (honey !== -1) {
   shoppingCart.splice(honey, 1);
