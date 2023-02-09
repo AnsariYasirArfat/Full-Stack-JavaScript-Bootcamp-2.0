@@ -1,5 +1,5 @@
 # Article Topics
-
+## Html & CSS
 1. [Introduction to Web & HTML.](https://ansariyasirarfat.hashnode.dev/introduction-to-web-html)
 2. [Video & Audio Tags.](https://ansariyasirarfat.hashnode.dev/video-audio-tags)
 3. [The Input (Form Input) element.](https://ansariyasirarfat.hashnode.dev/the-input-form-input-element)
@@ -11,3 +11,6 @@
 9. [CSS Media Queries](https://ansariyasirarfat.hashnode.dev/basic-of-css-media-queries)
 10. [Git & GitHub](https://ansariyasirarfat.hashnode.dev/guide-to-git-github)
 
+
+## JavaScript
+1. [Introduction to JavaScript.](https://ansariyasirarfat.hashnode.dev/a-journey-into-the-world-of-javascript)
