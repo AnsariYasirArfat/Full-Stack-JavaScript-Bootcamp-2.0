@@ -16,7 +16,7 @@
 1. [Introduction to JavaScript.](https://ansariyasirarfat.hashnode.dev/introduction-to-javascript)
 ### Fundamentals of JavaScript:
 2. [Values & Types in JavaScript.](https://ansariyasirarfat.hashnode.dev/discovering-the-art-of-values-types-in-javascript) <br/>
-A.[]()<br/>
+A.[Primitive vs Non-primitive data types](https://ansariyasirarfat.hashnode.dev/primitive-vs-non-primitive-data-types)<br/>
 <!-- B.[]()<br/>
 C.[]()<br/>
 
