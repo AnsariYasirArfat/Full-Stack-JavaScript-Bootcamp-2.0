@@ -13,18 +13,26 @@
 
 
 ## JavaScript:
-1. [Introduction to JavaScript.](https://ansariyasirarfat.hashnode.dev/introduction-to-javascript)
+ [Introduction to JavaScript.](https://ansariyasirarfat.hashnode.dev/introduction-to-javascript)
 ### Fundamentals of JavaScript:
-2. [Values & Types in JavaScript.](https://ansariyasirarfat.hashnode.dev/discovering-the-art-of-values-types-in-javascript) <br/>
-A.[Primitive vs Non-primitive data types](https://ansariyasirarfat.hashnode.dev/primitive-vs-non-primitive-data-types)<br/>
-<!-- B.[]()<br/>
-C.[]()<br/>
+1. [Values & Types in JavaScript.](https://ansariyasirarfat.hashnode.dev/discovering-the-art-of-values-types-in-javascript) <br/>
+A.[ Primitive vs Non-primitive data types.](https://ansariyasirarfat.hashnode.dev/primitive-vs-non-primitive-data-types)<br/>
+B.[ Objects: The Building Blocks of JavaScript.](https://ansariyasirarfat.hashnode.dev/objects-the-building-blocks-of-javascript)<br/>
+<!-- C.[ String & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/mastering-javascript-strings)<br/> -->
+<!-- D.[ Arrays & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/exploring-arrays-its-methods-in-javascript)<br/> -->
 
-3. []()
-[]()
-[]()
-[]()
-[]()
-[]()
-[]()
-[]() -->
+
+
+<!-- 2. [Introduction to JavaScript Variables.](https://ansariyasirarfat.hashnode.dev/getting-a-grip-on-javascript-variables) -->
+
+<!-- 3. [Operations in JavaScript.](https://ansariyasirarfat.hashnode.dev/unlocking-the-power-of-operations-in-javascript) -->
+
+<!-- 4. [Decisions in JavaScript.](https://ansariyasirarfat.hashnode.dev/power-versatility-of-decisions-in-javascript) -->
+
+<!-- 5. [Loops in JavaScript.](https://ansariyasirarfat.hashnode.dev/looping-through-code-in-javascript) -->
+
+<!-- 6. [Functions in JavaScript.](https://ansariyasirarfat.hashnode.dev/why-use-functions-in-javascript) -->
+
+<!-- [How Prototype & its Chain works in JavaScript?](https://ansariyasirarfat.hashnode.dev/how-prototype-its-chain-works-in-javascript) -->
+
+
