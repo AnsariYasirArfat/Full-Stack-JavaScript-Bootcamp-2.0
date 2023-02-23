@@ -18,7 +18,7 @@
 1. [Values & Types in JavaScript.](https://ansariyasirarfat.hashnode.dev/discovering-the-art-of-values-types-in-javascript) <br/>
 A.[ Primitive vs Non-primitive data types.](https://ansariyasirarfat.hashnode.dev/primitive-vs-non-primitive-data-types)<br/>
 B.[ Objects: The Building Blocks of JavaScript.](https://ansariyasirarfat.hashnode.dev/objects-the-building-blocks-of-javascript)<br/>
-<!-- C.[ String & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/mastering-javascript-strings)<br/> -->
+C.[ String & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/mastering-javascript-strings)<br/>
 <!-- D.[ Arrays & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/exploring-arrays-its-methods-in-javascript)<br/> -->
 
 
