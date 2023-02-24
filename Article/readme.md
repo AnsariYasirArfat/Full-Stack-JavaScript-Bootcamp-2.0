@@ -21,9 +21,7 @@ B.[ Objects: The Building Blocks of JavaScript.](https://ansariyasirarfat.hashno
 C.[ String & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/mastering-javascript-strings)<br/>
 D.[ Arrays & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/exploring-arrays-its-methods-in-javascript)<br/>
 
-
-
-<!-- 2. [Introduction to JavaScript Variables.](https://ansariyasirarfat.hashnode.dev/getting-a-grip-on-javascript-variables) -->
+2. [Introduction to JavaScript Variables.](https://ansariyasirarfat.hashnode.dev/getting-a-grip-on-javascript-variables)
 
 <!-- 3. [Operations in JavaScript.](https://ansariyasirarfat.hashnode.dev/unlocking-the-power-of-operations-in-javascript) -->
 
