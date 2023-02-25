@@ -23,7 +23,7 @@ D.[ Arrays & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/e
 
 2. [Introduction to JavaScript Variables.](https://ansariyasirarfat.hashnode.dev/getting-a-grip-on-javascript-variables)
 
-<!-- 3. [Operations in JavaScript.](https://ansariyasirarfat.hashnode.dev/unlocking-the-power-of-operations-in-javascript) -->
+3. [Operations in JavaScript.](https://ansariyasirarfat.hashnode.dev/unlocking-the-power-of-operations-in-javascript)
 
 <!-- 4. [Decisions in JavaScript.](https://ansariyasirarfat.hashnode.dev/power-versatility-of-decisions-in-javascript) -->
 
