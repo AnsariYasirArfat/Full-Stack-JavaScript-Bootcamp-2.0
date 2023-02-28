@@ -24,7 +24,7 @@ D.[ Array & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/ar
 3. [Operations in JavaScript.](https://ansariyasirarfat.hashnode.dev/unlocking-the-power-of-operations-in-javascript)
 4. [Decisions in JavaScript.](https://ansariyasirarfat.hashnode.dev/power-versatility-of-decisions-in-javascript)
 
-<!-- 5. [Loops in JavaScript.](https://ansariyasirarfat.hashnode.dev/looping-through-code-in-javascript) -->
+5. [Loops in JavaScript.](https://ansariyasirarfat.hashnode.dev/looping-through-code-in-javascript)
 
 <!-- 6. [Functions in JavaScript.](https://ansariyasirarfat.hashnode.dev/why-use-functions-in-javascript) -->
 
