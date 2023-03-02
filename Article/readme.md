@@ -26,7 +26,7 @@ D.[ Array & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/ar
 
 5. [Loops in JavaScript.](https://ansariyasirarfat.hashnode.dev/looping-through-code-in-javascript)
 
-<!-- 6. [Functions in JavaScript.](https://ansariyasirarfat.hashnode.dev/why-use-functions-in-javascript) -->
+6. [Functions in JavaScript.](https://ansariyasirarfat.hashnode.dev/why-use-functions-in-javascript)
 
 <!-- [How Prototype & its Chain works in JavaScript?](https://ansariyasirarfat.hashnode.dev/how-prototype-its-chain-works-in-javascript) -->
 
