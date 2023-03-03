@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+body {
+  background: url(./images/Desktop.png);
+  font-family: "Roboto Mono", monospace;
+  height: 100vh;
+}
+
+.youtube {
+  box-shadow: 14px 16px 18px -10px rgb(82, 82, 82, 0.5);
+}
