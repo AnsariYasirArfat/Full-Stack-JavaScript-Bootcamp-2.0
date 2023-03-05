@@ -14,6 +14,8 @@
 
 ## JavaScript:
  [Introduction to JavaScript.](https://ansariyasirarfat.hashnode.dev/introduction-to-javascript)
+
+[How Prototype & its Chain works in JavaScript?](https://ansariyasirarfat.hashnode.dev/how-prototype-its-chain-works-in-javascript)
 ### Fundamentals of JavaScript:
 1. [Values & Types in JavaScript.](https://ansariyasirarfat.hashnode.dev/values-its-types-in-javascript) <br/>
 A.[ Primitive vs Non-primitive data types.](https://ansariyasirarfat.hashnode.dev/primitive-vs-non-primitive-data-types)<br/>
@@ -28,6 +30,6 @@ D.[ Array & its Methods in JavaScript.](https://ansariyasirarfat.hashnode.dev/ar
 
 6. [Functions in JavaScript.](https://ansariyasirarfat.hashnode.dev/why-use-functions-in-javascript)
 
-<!-- [How Prototype & its Chain works in JavaScript?](https://ansariyasirarfat.hashnode.dev/how-prototype-its-chain-works-in-javascript) -->
+
 
 
