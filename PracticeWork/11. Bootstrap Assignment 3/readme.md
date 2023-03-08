@@ -8,7 +8,10 @@ This project is a simple website built using HTML and CSS Bootstrap framework. I
 
 *[click the button to view the website]* 
 
-<!-- 
+
 ## Here is Output:
     
-![output](./output.gif) -->
+![output](./output.gif)
+
+### Responsive website design:
+![output](./output1.gif)
