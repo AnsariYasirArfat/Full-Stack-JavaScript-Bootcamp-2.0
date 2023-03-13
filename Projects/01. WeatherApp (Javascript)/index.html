@@ -21,69 +21,32 @@
 </head>
 
 <body>
-  <!-- container for holding the weather card -->
-  <div class="container">
-    <h1>Weather Web App</h1>
-
-    <!-- section for searching the weather of a city -->
-    <form onsubmit="getData(event)" class="searchData">
-      <input id="inputBox" type="text" placeholder="Enter the city name" />
-      <button>Search</button>
-    </form>
-
-    <!-- section for displaying the city weather data -->
-    <section class="cityWeatherData">
-      <!-- displaying the country details -->
-      <div class="countryDetails details">
-        <!-- displaying the country name -->
-        <div class="card">
-          <p>Country Name</p>
-          <p id="countryName">___</p>
-        </div>
-
-        <!-- displaying the state name -->
-        <div class="card">
-          <p>State Name</p>
-          <p id="stateName">___</p>
-        </div>
-
-        <!-- displaying the city name -->
-        <div class="card">
-          <p>City Name</p>
-          <p id="cityName">___</p>
-        </div>
+ <!-- Navbar -->
+ <div class="container-fluid">
+  <nav class="navbar text-center justify-content-center align-item-center">
+    <div class="container-fluid row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center ">
+      <!-- logo and name -->
+      <div class="col p-3">
+        <a class="navbar-brand fw-bold fs-1 "><i class="fa fa-cloud-sun-rain"></i> Weather </a>
       </div>
-
-      <!-- displaying the weather status -->
-      <div class="weatherDetails details">
-        <!-- displaying the humidity -->
-        <div class="card">
-          <p>Humidity</p>
-          <p id="humidity">___</p>
-        </div>
-
-        <!-- displaying the wind speed -->
-        <div class="card">
-          <p>Wind Speed</p>
-          <p><span id="windSpeed">___</span> KMPH</p>
-        </div>
-
-        <!-- displaying the current temprature in celcius -->
-        <div class="card">
-          <p>Temprature</p>
-          <!-- unicode for degree celcius symbol -->
-          <p><span id="temprature">___</span>&#8451;</p>
-        </div>
-
-        <!-- displaying the weather condition -->
-        <div class="card">
-          <img width="20px" id="logoImage" src="" alt="icon" />
-          <p id="weatherStatus">___</p>
-        </div>
+      <!-- Input form -->
+      <div class="col p-3">
+        <form onsubmit="getData(event)" class=" m-auto" role="search">
+          <input id="inputBox" class="form-control" type="search" placeholder="Search for your desired city here."
+            aria-label="Search">
+          <button id="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <!-- <p class="mx-auto mt-2">Search for your desired city here</p> -->
+        <div id="liveAlertPlaceholder"></div>
       </div>
-    </section>
-  </div>
-</body>
+      <!-- Date & Time -->
+      <div class="date_time col p-2">
+        <h2 class="userTime h4 fw-bold"></h2>
+        <p class="userDate fw-semibold"></p>
+      </div>
+    </div>
+  </nav>
+</div>
 
 
 
