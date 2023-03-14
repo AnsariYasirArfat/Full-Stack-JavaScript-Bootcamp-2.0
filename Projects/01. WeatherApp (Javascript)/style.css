@@ -1,65 +1,30 @@
-/* css reset */
 * {
   margin: 0;
   padding: 0;
   outline: 0;
   box-sizing: border-box;
 }
-
-body {
-  height: 100vh;
+/* Navbar starts here */
+form {
+  background-color: white;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e1e1e1;
+  width: fit-content;
+  border-radius: 10px;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
 }
-
-/* designing the weather app container */
-.container {
-  width: 600px;
-  border: 2px solid black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-  padding: 15px;
+#inputBox {
+  border: none;
+  width: 270px;
+  background-color: transparent;
 }
-
-/* designing the search area */
-.searchData {
-  border: 1px solid black;
+.form-control:focus {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
-
-.searchData input {
-  border: transparent;
-  padding: 5px;
+#search-btn {
+  border: none;
+  background-color: transparent;
+  margin-inline: 10px;
 }
-
-.searchData button {
-  border: transparent;
-  padding: 5px 15px;
-  cursor: pointer;
-}
-
-/* designing the city weather data */
-.cityWeatherData {
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
-  align-items: center;
-  width: 100%;
-}
-
-.details {
-  display: flex;
-  align-items: center;
-  gap: 30px;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 5px;
-}
+/* Navbar ends here */
