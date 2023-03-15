@@ -31,5 +31,15 @@
  ## Task 05:
 **Answer:**
 
+    let newButton = document.createElement("button");
+    newButton.innerText="Support Me";
+    let button = document.querySelector(".hero-right-section-btns");
+    button.append(newButton);
+
  ## Task 06:
 **Answer:**
+
+    let socialMedia = document.querySelectorAll('footer ul li a');
+    socialMedia[0].href = "https://github.com/AnsariYasirArfat"
+    socialMedia[1].href = "https://www.linkedin.com/in/yaseer-ansari-364a25262/"
+    socialMedia[2].href = "https://www.instagram.com/ansariyaseerarfat/"
