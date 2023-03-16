@@ -9,7 +9,7 @@
     let para = document.querySelectorAll(".accordian p");
     para.forEach((paragrh) => { paragrh.style.backgroundColor = "#EEEEFF" });
 
-<!-- 
+
 ## Task 02:
 ![output](./task2Output.png)
 **Answer:**
@@ -43,4 +43,4 @@
     let head3 = document.querySelectorAll(".accordian h3");
     head3.forEach((heading) => { heading.style.backgroundColor = "#DADAF8" });
     let para = document.querySelectorAll(".accordian p");
-    para.forEach((paragrh) => { paragrh.style.backgroundColor = "#EEEEFF" }); -->
+    para.forEach((paragrh) => { paragrh.style.backgroundColor = "#EEEEFF" });
