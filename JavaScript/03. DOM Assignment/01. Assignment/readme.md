@@ -1,6 +1,7 @@
 # DOM Assignment 01:
 
 ## Task 01:
+![output](./task1Output.png)
 **Answer:**
 
     let lastLi = document.createElement("li");
@@ -9,12 +10,14 @@
 
 
 ## Task 02:
+![output](./task2Output.png)
 **Answer:**
 
     let placeHolder = document.querySelector(".search-field input");
     placeHolder.placeholder = "Search My Project";  
 
  ## Task 03:
+![output](./task3Output.png)
 **Answer:**
 
     let spanElement = document.querySelector(".hero-left-section p");
@@ -23,12 +26,15 @@
 
 
  ## Task 04:
+![output](./task4Output.png)
 **Answer:**
 
     let avtar = document.querySelector(".hero-right-section img");
     avtar.src="https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg";
 
- ## Task 05:
+
+## Task 05:
+![output](./task5Output.png)
 **Answer:**
 
     let newButton = document.createElement("button");
@@ -36,7 +42,12 @@
     let button = document.querySelector(".hero-right-section-btns");
     button.append(newButton);
 
- ## Task 06:
+   
+
+
+## Task 06:
+Addink link to social media logo
+
 **Answer:**
 
     let socialMedia = document.querySelectorAll('footer ul li a');
