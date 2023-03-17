@@ -2,7 +2,8 @@
 
 ## Task 01:
 ![output](./task1Output.png)
-**Answer:**
+## code:
+
 
     let head3 = document.querySelectorAll(".accordian h3");
     head3.forEach((heading) => { heading.style.backgroundColor = "#DADAF8" });
@@ -10,9 +11,13 @@
     para.forEach((paragrh) => { paragrh.style.backgroundColor = "#EEEEFF" });
 
 
+
+
 ## Task 02:
 ![output](./task2Output.png)
-**Answer:**
+
+## code:
+
 
   
     let parent = document.querySelector(".accordian-wrapper");

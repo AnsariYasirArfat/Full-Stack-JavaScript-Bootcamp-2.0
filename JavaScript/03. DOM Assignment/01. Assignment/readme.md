@@ -2,7 +2,8 @@
 
 ## Task 01:
 ![output](./task1Output.png)
-**Answer:**
+## code:
+
 
     let lastLi = document.createElement("li");
     lastLi.innerHTML="<a>Hire Me</a>";
@@ -11,14 +12,15 @@
 
 ## Task 02:
 ![output](./task2Output.png)
-**Answer:**
+## code:
 
     let placeHolder = document.querySelector(".search-field input");
     placeHolder.placeholder = "Search My Project";  
 
  ## Task 03:
 ![output](./task3Output.png)
-**Answer:**
+## code:
+
 
     let spanElement = document.querySelector(".hero-left-section p");
     spanElement.children[2].innerText = "an Employee";
@@ -27,7 +29,8 @@
 
  ## Task 04:
 ![output](./task4Output.png)
-**Answer:**
+## code:
+
 
     let avtar = document.querySelector(".hero-right-section img");
     avtar.src="https://hiteshchoudhary.com/static/a8d73d1aac4c79e9bb689640e6090367/2eaab/person-image.jpg";
@@ -35,7 +38,8 @@
 
 ## Task 05:
 ![output](./task5Output.png)
-**Answer:**
+## code:
+
 
     let newButton = document.createElement("button");
     newButton.innerText="Support Me";
@@ -48,7 +52,7 @@
 ## Task 06:
 Addink link to social media logo
 
-**Answer:**
+## code:
 
     let socialMedia = document.querySelectorAll('footer ul li a');
     socialMedia[0].href = "https://github.com/AnsariYasirArfat"

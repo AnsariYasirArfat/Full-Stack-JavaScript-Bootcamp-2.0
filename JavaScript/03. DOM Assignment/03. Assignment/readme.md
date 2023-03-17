@@ -3,9 +3,7 @@
 ## Task:
 ![output](./task1Output.png)
 
-**Answer:**
-
-    
+## code: 
 
     let form = document.querySelectorAll("form");
     form[1].addEventListener("submit", (event) => {
