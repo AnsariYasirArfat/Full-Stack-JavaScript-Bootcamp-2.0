@@ -3,7 +3,7 @@
 ## Task:
 ![output](./task1Output.png)
 
-## code: 
+## Codes:
 
     let form = document.querySelectorAll("form");
     form[1].addEventListener("submit", (event) => {

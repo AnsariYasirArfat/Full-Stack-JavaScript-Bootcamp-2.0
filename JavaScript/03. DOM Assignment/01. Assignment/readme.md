@@ -2,7 +2,7 @@
 
 ## Task 01:
 ![output](./task1Output.png)
-## code:
+## Codes:
 
 
     let lastLi = document.createElement("li");
@@ -12,14 +12,14 @@
 
 ## Task 02:
 ![output](./task2Output.png)
-## code:
+## Codes:
 
     let placeHolder = document.querySelector(".search-field input");
     placeHolder.placeholder = "Search My Project";  
 
  ## Task 03:
 ![output](./task3Output.png)
-## code:
+## Codes:
 
 
     let spanElement = document.querySelector(".hero-left-section p");
@@ -29,7 +29,7 @@
 
  ## Task 04:
 ![output](./task4Output.png)
-## code:
+## Codes:
 
 
     let avtar = document.querySelector(".hero-right-section img");
@@ -38,7 +38,7 @@
 
 ## Task 05:
 ![output](./task5Output.png)
-## code:
+## Codes:
 
 
     let newButton = document.createElement("button");
@@ -46,13 +46,10 @@
     let button = document.querySelector(".hero-right-section-btns");
     button.append(newButton);
 
-   
-
-
 ## Task 06:
 Addink link to social media logo
 
-## code:
+## Codes:
 
     let socialMedia = document.querySelectorAll('footer ul li a');
     socialMedia[0].href = "https://github.com/AnsariYasirArfat"

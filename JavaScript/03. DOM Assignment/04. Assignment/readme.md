@@ -3,7 +3,7 @@
 ## Task:
 ![output](./taskOutput.png)
 
-## code:
+## Codes:
 
     let text = document.querySelectorAll(".one-third");
     text.forEach(element => element.style.color = "white");

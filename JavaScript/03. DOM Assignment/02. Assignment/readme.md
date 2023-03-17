@@ -2,7 +2,7 @@
 
 ## Task 01:
 ![output](./task1Output.png)
-## code:
+## Codes:
 
 
     let head3 = document.querySelectorAll(".accordian h3");
@@ -16,7 +16,7 @@
 ## Task 02:
 ![output](./task2Output.png)
 
-## code:
+## Codes:
 
 
   

@@ -3,23 +3,30 @@
 ## Task:
 ![output](./taskOutput.png)
 
-## code:
+## Codes:
+### task 1:
+    let newDiv = document.querySelector(".nav-links");
+    let newButton = document.createElement("a")
+    newButton.classList = "btn";
+    newButton.textContent = "Pro Subscription";
+    newDiv.nextElementSibling.appendChild(newButton);
 
-    let text = document.querySelectorAll(".one-third");
-    text.forEach(element => element.style.color = "white");
 
-    let barbarian = document.querySelector(".clash-card__unit-stats--barbarian");
-    barbarian.style.backgroundColor = "#EC9B3B";
+### task 2:
 
+    let tags = document.querySelector(".tags-container div");
+    let newtag = document.createElement("a")
+    newtag.textContent = "Chinese (7)";
+    tags.appendChild(newtag);
 
-    let archer = document.querySelector(".clash-card__unit-stats--archer");
-    archer.style.backgroundColor = "#EE5487";
+### task 3:
 
-    let giant = document.querySelector(".clash-card__unit-stats--giant");
-    giant.style.backgroundColor = "#F6901A";
+    let cardText = document.querySelectorAll(".recipe-text");
+    cardText.forEach(element => element.style.color = "#49078B");
 
-    let goblin = document.querySelector(".clash-card__unit-stats--goblin");
-    goblin.style.backgroundColor = "#7DB828";
+### task 4:
 
-    let wizard = document.querySelector(".clash-card__unit-stats--wizard");
-    wizard.style.backgroundColor = "#4FACFF";
+    let cards = document.querySelector(".recipe-gallery");
+    let newCard = document.createElement("div");
+    newCard.classList = "card";
+    cards.append(newCard);
