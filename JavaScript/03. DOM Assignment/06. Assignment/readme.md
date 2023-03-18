@@ -20,4 +20,9 @@
 
 
 
-    
+    let icons = document.querySelector(".footer_social");
+    let newSocialDiv = document.createElement("div");
+    newSocialDiv.classList = "footer_social_ico";
+    let newIcon = `<i class="fa-brands fa-linkedin"></i>`;
+    newSocialDiv.innerHTML = newIcon;
+    icons.appendChild(newSocialDiv);    
