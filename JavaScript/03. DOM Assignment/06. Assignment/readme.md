@@ -15,7 +15,9 @@
 ![output](./task2Output.png)
 
 ## Codes:
+    let newPrice = document.querySelector(".app_price span");
+    newPrice.textContent="$10";
 
 
-  
+
     
