@@ -14,3 +14,13 @@
 
 
 
+## Task 02:
+![](./ass7.2-before.png)
+
+## Codes:
+    let inputBox = document.querySelector(".main__form-input");
+    inputBox.removeAttribute("disabled");
+    let submitBtn = document.querySelector(".main__form-btn");
+    submitBtn.removeAttribute("disabled");
+### output:
+![](./ass7.2-after.png)
