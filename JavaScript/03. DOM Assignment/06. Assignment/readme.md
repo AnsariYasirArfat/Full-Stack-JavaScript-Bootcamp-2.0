@@ -1,4 +1,4 @@
-# DOM Assignment 02:
+# DOM Assignment 06:
 
 ## Task 01:
 ![output](./task1Output.png)
