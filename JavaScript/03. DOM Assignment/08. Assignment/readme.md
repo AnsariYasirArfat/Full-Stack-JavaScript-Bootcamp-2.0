@@ -35,9 +35,10 @@
 
 
 ## Task 03:
-![]()
+![](./ass8.3-before.png)
 
 ## Codes:
-  
+    let showNavbar = document.querySelector('.collapse');
+    showNavbar.classList.add('show');
 ### output:
-![]()
+![](./ass8.3-after.png)
