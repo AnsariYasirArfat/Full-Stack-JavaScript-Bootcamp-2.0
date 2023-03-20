@@ -24,12 +24,14 @@
 
 
 ## Task 02:
-![]()
+![](./ass8.2-before.png)
 
 ## Codes:
   
+    const bckgrndImage = document.querySelector('body');
+    bckgrndImage.style.backgroundImage = 'none';
 ### output:
-![]()
+![](./ass8.2-after.png)
 
 
 ## Task 03:
