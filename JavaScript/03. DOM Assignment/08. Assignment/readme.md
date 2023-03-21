@@ -18,7 +18,7 @@
     asideBox.appendChild(para);
     asideBox.style.overflow = 'auto';
    
-### output:
+### Output:
 ![](./ass8.1-after.png)
 
 
@@ -30,7 +30,7 @@
   
     const bckgrndImage = document.querySelector('body');
     bckgrndImage.style.backgroundImage = 'none';
-### output:
+### Output:
 ![](./ass8.2-after.png)
 
 
@@ -40,5 +40,5 @@
 ## Codes:
     let showNavbar = document.querySelector('.collapse');
     showNavbar.classList.add('show');
-### output:
+### Output:
 ![](./ass8.3-after.png)

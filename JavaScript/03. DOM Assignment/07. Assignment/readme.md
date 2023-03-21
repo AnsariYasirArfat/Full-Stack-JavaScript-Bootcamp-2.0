@@ -9,7 +9,7 @@
     element.remove();
     });
    
-### output:
+### Output:
 ![](./ass7.1-after.png)
 
 
@@ -22,5 +22,5 @@
     inputBox.removeAttribute("disabled");
     let submitBtn = document.querySelector(".main__form-btn");
     submitBtn.removeAttribute("disabled");
-### output:
+### Output:
 ![](./ass7.2-after.png)
