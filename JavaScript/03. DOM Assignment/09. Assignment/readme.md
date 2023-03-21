@@ -13,11 +13,12 @@
 
 
 ## Task 02:
-![]()
+![](./ass9.2-before.png)
 
 ## Codes:
-  
+    let cartButton = document.querySelector(".add-to-cart");
+    cartButton.style.backgroundColor="#DC143C";  
  
 ### Output:
-![]()
+![](./ass9.2-after.png)
 
