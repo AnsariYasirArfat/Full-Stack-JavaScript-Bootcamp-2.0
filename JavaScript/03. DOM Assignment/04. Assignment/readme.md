@@ -1,7 +1,8 @@
 # DOM Assignment 04:
 
 ## Task:
-![output](./taskOutput.png)
+
+Changing background & text colors of the bottom section of cards.
 
 ## Codes:
 
@@ -23,3 +24,7 @@
 
     let wizard = document.querySelector(".clash-card__unit-stats--wizard");
     wizard.style.backgroundColor = "#4FACFF";
+
+### Output:
+
+![output](./taskOutput.png)
