@@ -1,26 +1,38 @@
 # DOM Assignment 07:
 
 ## Task 01:
+
+Before DOM Manipulation:
 ![](./ass7.1-before.png)
+
 ## Codes:
+
     let languages = document.querySelectorAll(".main__languages a");
     let removed = [1,3,5,7,9].map(index => languages[index]);
     removed.forEach(element => {
     element.remove();
     });
-   
-### Output:
+
+### Output after DOM Manipulation:
+
 ![](./ass7.1-after.png)
 
-
+---
 
 ## Task 02:
+
+Before DOM Manipulation:
 ![](./ass7.2-before.png)
 
 ## Codes:
+
     let inputBox = document.querySelector(".main__form-input");
     inputBox.removeAttribute("disabled");
     let submitBtn = document.querySelector(".main__form-btn");
     submitBtn.removeAttribute("disabled");
-### Output:
+
+### Output after DOM Manipulation:
+
 ![](./ass7.2-after.png)
+
+---
