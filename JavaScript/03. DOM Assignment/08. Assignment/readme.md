@@ -1,8 +1,15 @@
 # DOM Assignment 08:
 
 ## Task 01:
+
+Before DOM Manipulation:
+
 ![](./ass8.1-before.png)
+
+Adding the new child in aside section and making overflow "auto".
+
 ## Codes:
+
     let asideBox = document.querySelector("aside");
     let hrLine = document.createElement("hr");
     hrLine.classList = "hr-line";
@@ -17,28 +24,45 @@
     asideBox.appendChild(head2);
     asideBox.appendChild(para);
     asideBox.style.overflow = 'auto';
-   
-### Output:
+
+### Output after DOM Manipulation:
+
 ![](./ass8.1-after.png)
 
-
+---
 
 ## Task 02:
+
+Before DOM Manipulation:
+
 ![](./ass8.2-before.png)
 
+Removing the background image.
+
 ## Codes:
-  
+
     const bckgrndImage = document.querySelector('body');
     bckgrndImage.style.backgroundImage = 'none';
-### Output:
+
+### Output after DOM Manipulation:
+
 ![](./ass8.2-after.png)
 
+---
 
 ## Task 03:
+
+Before DOM Manipulation:
+
 ![](./ass8.3-before.png)
 
 ## Codes:
+
     let showNavbar = document.querySelector('.collapse');
     showNavbar.classList.add('show');
-### Output:
+
+### Output after DOM Manipulation:
+
 ![](./ass8.3-after.png)
+
+---
