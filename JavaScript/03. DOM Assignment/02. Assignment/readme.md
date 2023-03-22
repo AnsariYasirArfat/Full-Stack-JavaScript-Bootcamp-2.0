@@ -1,25 +1,28 @@
 # DOM Assignment 02:
 
 ## Task 01:
-![output](./task1Output.png)
-## Codes:
 
+Changing the background color of headings & paragraphs
+
+## Codes:
 
     let head3 = document.querySelectorAll(".accordian h3");
     head3.forEach((heading) => { heading.style.backgroundColor = "#DADAF8" });
     let para = document.querySelectorAll(".accordian p");
     para.forEach((paragrh) => { paragrh.style.backgroundColor = "#EEEEFF" });
 
+### Output:
 
+![output](./task1Output.png)
 
+---
 
 ## Task 02:
-![output](./task2Output.png)
+
+Adding new accordian with heading "Skills" and paragraphs.
 
 ## Codes:
 
-
-  
     let parent = document.querySelector(".accordian-wrapper");
     let newDiv = document.createElement("div");
     parent.append(newDiv);
@@ -49,3 +52,7 @@
     head3.forEach((heading) => { heading.style.backgroundColor = "#DADAF8" });
     let para = document.querySelectorAll(".accordian p");
     para.forEach((paragrh) => { paragrh.style.backgroundColor = "#EEEEFF" });
+
+![output](./task2Output.png)
+
+---
