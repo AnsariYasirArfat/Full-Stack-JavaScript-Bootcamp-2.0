@@ -1,7 +1,6 @@
 # DOM Assignment 03:
 
 ## Task:
-![output](./task1Output.png)
 
 ## Codes:
 
@@ -22,5 +21,8 @@
         enterMessage.value = userMessage.value;
     })
 
-  
-    
+### Output:
+
+![output](./task1Output.png)
+
+---
