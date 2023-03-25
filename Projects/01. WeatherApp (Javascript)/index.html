@@ -21,86 +21,92 @@
 </head>
 
 <body>
- <!-- Navbar -->
- <div class="container-fluid">
-  <nav class="navbar text-center justify-content-center align-item-center">
-    <div class="container-fluid row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center ">
-      <!-- logo and name -->
-      <div class="col p-3">
-        <a class="navbar-brand fw-bold fs-1 "><i class="fa fa-cloud-sun-rain"></i> Weather </a>
-      </div>
-      <!-- Input form -->
-      <div class="col p-3">
-        <form onsubmit="getData(event)" class=" m-auto" role="search">
-          <input id="inputBox" class="form-control" type="search" placeholder="Search for your desired city here."
-            aria-label="Search">
-          <button id="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-        <!-- <p class="mx-auto mt-2">Search for your desired city here</p> -->
-        <div id="liveAlertPlaceholder"></div>
-      </div>
-      <!-- Date & Time -->
-      <div class="date_time col p-2">
-        <h2 class="userTime h4 fw-bold"></h2>
-        <p class="userDate fw-semibold"></p>
-      </div>
-    </div>
-  </nav>
-</div>
- <!-- Current weather -->
- <div class="currentDayWeather container-fluid">
-  <div>
-    <h1 class=" fw-bold text-center mb-4"> <span id="cityName">__?__</span>'s Current Weather:</h1>
-    <div class="d-md-flex justify-content-md-center">
-      <!-- Humidity Wind LocalTime -->
-      <div class="d-flex justify-content-around text-center flex-md-column mb-sm-4 mb-md-0 me-md-4">
-        <div class="card shortScale mb-md-4 ms-md-4" style="min-width: 130px;">
-          <p class="card-header fw-bold">Humidity:</p>
-          <p id="humidity" class="card-body card-text fw-semibold">00</p>
+  <!-- Navbar -->
+  <div class="container-fluid">
+    <nav class="navbar text-center justify-content-center align-item-center">
+      <div class="container-fluid row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center ">
+        <!-- logo and name -->
+        <div class="col p-3 ">
+          <p class="fw-bold fs-1 "><img src="./images/icons8-weather-64.png" alt="Logo" width="50"
+              class="d-inline-block "> Weather </p>
         </div>
-        <div class="card shortScale mb-md-4 me-md-4" style="min-width: 130px;">
-          <p class="card-header  fw-bold">Wind:</p>
-          <p class="card-body card-text"><span class="fw-semibold" id="windSpeed">00.0</span><small> km/h.</small></p>
+        <!-- Input form -->
+        <div class="col p-3">
+          <form onsubmit="getData(event)" class=" m-auto" role="search">
+            <input id="inputBox" class="form-control" type="search" placeholder="Search for your desired city here."
+              aria-label="Search">
+            <button id="search-btn" type="submit"><img src="./images/icons8-search-48.png" alt="search"
+                width="30"></button>
+            <!-- <button id="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
+          </form>
+          <!-- <p class="mx-auto mt-2">Search for your desired city here</p> -->
+          <div id="liveAlertPlaceholder"></div>
         </div>
-        <div class="card shortScale mb-md-4 ms-md-4" style="min-width: 130px;">
-          <p class="card-header fw-bold">LocalTime:</p>
-          <p id="localTime" class="card-body card-text fw-semibold">00:00</p>
+        <!-- Date & Time -->
+        <div class="date_time col p-2">
+          <h2 class="userTime h4 fw-bold"></h2>
+          <p class="userDate fw-semibold"></p>
         </div>
       </div>
-      <!-- Current Temperature & Condition-->
-      <div
-        class="d-flex flex-column flex-md-row justify-content-center mb-sm-4 mb-md-0 mx-lg-4 flex-xl-column align-items-center ">
-        <div class="my-auto my-xl-0 text-center ">
-          <h1 id="temperature" class="d-inline ">00.0</h1><small class="fw-semibold fs-3"><sup>o</sup>C</small>
-        </div>
-        <div class="d-flex flex-column justify-content-end align-items-center justify-content-md-center ms-4 ">
-          <img class="img-fluid" src="./images/113.png" id="logoImage" alt="Weather-icon">
-          <p id="weatherStatus" class="fst-italic fw-bold text-center mb-0">Patchy rain possible</p>
-        </div>
-      </div>
-      <!-- Location Details  -->
-      <div class="d-flex justify-content-around flex-md-column ms-md-4 text-center">
-        <div class="card shortScale mb-md-4 me-md-4" style="min-width: 130px;">
-          <p class="card-header fw-bold">Country:</p>
-          <p class="card-body card-text" id="countryName">United States of America</p>
-        </div>
-        <div class="card shortScale mb-md-4 ms-md-4" style="min-width: 130px;">
-          <p class="card-header fw-bold">Region:</p>
-          <p class="card-body card-text " id="regionName">New York</p>
-        </div>
-        <div class="card shortScale mb-md-4 me-md-4" style="min-width: 130px;">
-          <p class="card-header fw-bold">TimeZone:</p>
-          <p class="card-body card-text " id="timeZone">America/New_York</p>
-        </div>
-      </div>
-    </div>
+    </nav>
   </div>
+  <!-- Current weather -->
+  <div class="currentDayWeather container-fluid">
+    <div>
+      <h1 class=" fw-bold text-center mb-4"> <span id="cityName">__?__</span>'s Current Weather:</h1>
+      <div class="d-md-flex justify-content-md-center">
+        <!-- Humidity Wind LocalTime -->
+        <div class="d-flex justify-content-around text-center flex-md-column mb-sm-4 mb-md-0 me-md-4">
+          <div class="card shortScale mb-md-4 ms-md-4" style="min-width: 130px;">
+            <p class="card-header fw-bold">Humidity:</p>
+            <p id="humidity" class="card-body card-text fw-semibold">00</p>
+          </div>
+          <div class="card shortScale mb-md-4 me-md-4" style="min-width: 130px;">
+            <p class="card-header  fw-bold">Wind:</p>
+            <p class="card-body card-text"><span class="fw-semibold" id="windSpeed">00.0</span><small> km/h.</small></p>
+          </div>
+          <div class="card shortScale mb-md-4 ms-md-4" style="min-width: 130px;">
+            <p class="card-header fw-bold">LocalTime:</p>
+            <p id="localTime" class="card-body card-text fw-semibold">00:00</p>
+          </div>
+        </div>
+        <!-- Current Temperature & Condition-->
+        <div
+          class="d-flex flex-column flex-md-row justify-content-center mb-sm-4 mb-md-0 mx-lg-4 flex-xl-column align-items-center ">
+          <div class="my-auto my-xl-0 text-center ">
+            <h1 id="temperature" class="d-inline ">00.0</h1><small class="fw-semibold fs-3"><sup>o</sup>C</small>
+          </div>
+          <div class="d-flex flex-column justify-content-end align-items-center justify-content-md-center ms-4 ">
+            <img class="img-fluid" src="./images/113.png" id="logoImage" alt="Weather-icon">
+            <p id="weatherStatus" class="fst-italic fw-bold text-center mb-0">Patchy rain possible</p>
+          </div>
+        </div>
+        <!-- Location Details  -->
+        <div class="d-flex justify-content-around flex-md-column ms-md-4 text-center">
+          <div class="card shortScale mb-md-4 me-md-4" style="min-width: 130px;">
+            <p class="card-header fw-bold">Country:</p>
+            <p class="card-body card-text" id="countryName">United States of America</p>
+          </div>
+          <div class="card shortScale mb-md-4 ms-md-4" style="min-width: 130px;">
+            <p class="card-header fw-bold">Region:</p>
+            <p class="card-body card-text " id="regionName">New York</p>
+          </div>
+          <div class="card shortScale mb-md-4 me-md-4" style="min-width: 130px;">
+            <p class="card-header fw-bold">TimeZone:</p>
+            <p class="card-body card-text " id="timeZone">America/New_York</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
 
 
-<!-- Bootstrap CDN of JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CDN of JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
 </body>
 <!-- adding the javascript file -->
 <script src="./script.js"></script>
