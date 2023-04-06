@@ -28,3 +28,20 @@ form {
   margin-inline: 10px;
 }
 /* Navbar ends here */
+
+#temperature {
+  font-size: 6rem;
+}
+
+.shortScale {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+@media (max-width: 577px) {
+  .shortScale {
+    transform: scale(0.8);
+  }
+
+  #temperature {
+    font-size: 4rem;
+  }
+}
