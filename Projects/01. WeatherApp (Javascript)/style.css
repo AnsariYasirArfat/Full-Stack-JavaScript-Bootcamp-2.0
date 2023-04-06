@@ -48,3 +48,6 @@ form {
 .sun {
   background: linear-gradient(135deg, rgb(117, 167, 248), rgb(244, 196, 98));
 }
+.moon {
+  background: linear-gradient(135deg, rgb(63, 76, 97), rgb(63, 53, 33));
+}
