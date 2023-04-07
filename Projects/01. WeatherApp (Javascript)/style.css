@@ -68,3 +68,8 @@ form {
   );
   color: #224c90;
 }
+
+.box12pm {
+  background: linear-gradient(90deg, #f2f6bb, #f3f3b2, #fafa8e, #ffff69);
+  color: #4f4f0c;
+}
