@@ -51,3 +51,8 @@ form {
 .moon {
   background: linear-gradient(135deg, rgb(63, 76, 97), rgb(63, 53, 33));
 }
+
+.box12am {
+  background: linear-gradient(90deg, #061225, #05264d, #073f7e, #224c90);
+  color: #c1cfe4;
+}
