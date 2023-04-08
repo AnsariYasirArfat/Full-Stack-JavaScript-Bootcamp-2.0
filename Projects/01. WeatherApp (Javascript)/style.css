@@ -85,3 +85,8 @@ form {
   );
   color: #606003;
 }
+
+.box6pm {
+  background: linear-gradient(90deg, #ff9900, #ff7a11, #fe3828, #b1260d);
+  color: #eee9e2;
+}
