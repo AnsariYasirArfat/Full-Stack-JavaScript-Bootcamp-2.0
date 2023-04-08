@@ -73,3 +73,15 @@ form {
   background: linear-gradient(90deg, #f2f6bb, #f3f3b2, #fafa8e, #ffff69);
   color: #4f4f0c;
 }
+.box3pm {
+  background: linear-gradient(
+    90deg,
+    #ffff69,
+    #fcfc3e,
+    #fbe918,
+    #fbcf0d,
+    #f8b704,
+    #ff9900
+  );
+  color: #606003;
+}
