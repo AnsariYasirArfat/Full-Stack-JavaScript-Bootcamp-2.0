@@ -115,4 +115,13 @@ form {
     transform: translate(-20%, 50%);
     z-index: 999;
   }
+
+  .moonOnLarge {
+    width: 450px;
+    position: absolute;
+    bottom: 50%;
+    right: 10%;
+    transform: translate(20%, 50%);
+    z-index: 999;
+  }
 }
