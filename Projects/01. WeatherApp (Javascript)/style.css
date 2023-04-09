@@ -106,4 +106,13 @@ form {
   .overalldetails {
     position: relative;
   }
+  .sun {
+    width: 450px;
+    height: 200px;
+    position: absolute;
+    bottom: 50%;
+    left: 10%;
+    transform: translate(-20%, 50%);
+    z-index: 999;
+  }
 }
