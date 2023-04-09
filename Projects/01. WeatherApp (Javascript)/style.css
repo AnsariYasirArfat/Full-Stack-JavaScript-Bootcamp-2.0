@@ -126,4 +126,12 @@ form {
   .currentDayWeather {
     position: relative;
   }
+  .box12am {
+    position: absolute;
+    top: 4%;
+    left: 3%;
+    z-index: 999;
+    background: linear-gradient(#061225, #05264d, #073f7e, #224c90);
+    color: #c1cfe4;
+  }
 }
