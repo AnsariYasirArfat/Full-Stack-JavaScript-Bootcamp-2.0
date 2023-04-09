@@ -149,4 +149,7 @@ form {
     );
     color: #f1f1f2;
   }
+  .box6am .card-body {
+    color: #293d5e;
+  }
 }
