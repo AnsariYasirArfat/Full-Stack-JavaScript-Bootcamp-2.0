@@ -102,3 +102,8 @@ form {
   );
   color: #e8cfca;
 }
+@media (min-width: 1200px) {
+  .overalldetails {
+    position: relative;
+  }
+}
