@@ -134,4 +134,19 @@ form {
     background: linear-gradient(#061225, #05264d, #073f7e, #224c90);
     color: #c1cfe4;
   }
+  .box6am {
+    position: absolute;
+    bottom: 56%;
+    left: 7%;
+    z-index: 999;
+    background: linear-gradient(
+      #224c90,
+      #889fc5,
+      #ccccda,
+      #f1f1f2,
+      #f8fae1,
+      #f2f6bb
+    );
+    color: #f1f1f2;
+  }
 }
