@@ -152,4 +152,11 @@ form {
   .box6am .card-body {
     color: #293d5e;
   }
+
+  .box12pm {
+    position: relative;
+    left: 5%;
+    background: linear-gradient(90deg, #f2f6bb, #f3f3b2, #fafa8e, #ffff69);
+    color: #4f4f0c;
+  }
 }
