@@ -173,4 +173,12 @@ form {
     );
     color: #606003;
   }
+  .box6pm {
+    position: absolute;
+    bottom: 56%;
+    right: 7%;
+    z-index: 999;
+    background: linear-gradient(#d43f25, #fe3828, #ff7a11, #ff9900);
+    color: #eee9e2;
+  }
 }
