@@ -181,4 +181,12 @@ form {
     background: linear-gradient(#d43f25, #fe3828, #ff7a11, #ff9900);
     color: #eee9e2;
   }
+  .box9pm {
+    position: absolute;
+    top: 4%;
+    right: 3%;
+    z-index: 999;
+    background: linear-gradient(#241f1f, #3a1414, #591912, #821f14, #b1260d);
+    color: #e8cfca;
+  }
 }
