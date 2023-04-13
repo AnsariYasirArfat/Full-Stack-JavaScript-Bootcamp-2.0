@@ -190,3 +190,10 @@ form {
     color: #e8cfca;
   }
 }
+.buttonForecast {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 130px;
+  background-color: white;
+}
