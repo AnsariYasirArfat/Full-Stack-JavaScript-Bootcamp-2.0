@@ -197,3 +197,8 @@ form {
   width: 130px;
   background-color: white;
 }
+
+.buttonForecast:hover {
+  background-color: rgb(71, 69, 69);
+  color: #e8f0fe;
+}
