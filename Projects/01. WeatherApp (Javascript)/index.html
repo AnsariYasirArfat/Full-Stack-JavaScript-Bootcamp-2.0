@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 
@@ -26,16 +27,14 @@
       <div class="container-fluid row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center ">
         <!-- logo and name -->
         <div class="col p-3 ">
-          <p class="fw-bold fs-1 "><img src="./images/icons8-weather-64.png" alt="Logo" width="50"
-              class="d-inline-block "> Weather </p>
+          <p class="fw-bold fs-1 "><img src="./images/icons8-weather-64.png" alt="Logo" width="50" class="d-inline-block ">  Weather </p>
         </div>
         <!-- Input form -->
         <div class="col p-3">
           <form onsubmit="getData(event)" class=" m-auto" role="search">
             <input id="inputBox" class="form-control" type="search" placeholder="Search for your desired city here."
               aria-label="Search">
-            <button id="search-btn" type="submit"><img src="./images/icons8-search-48.png" alt="search"
-                width="30"></button>
+              <button id="search-btn" type="submit"><img src="./images/icons8-search-48.png" alt="search" width="30"></button>
             <!-- <button id="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button> -->
           </form>
           <!-- <p class="mx-auto mt-2">Search for your desired city here</p> -->
@@ -52,8 +51,7 @@
   <!-- Current weather -->
   <div class="currentDayWeather container-fluid">
     <div>
-      <h1 class=" fw-bold text-center mb-4"> <span id="cityName"><img class="img-fluid" src="./images/113.png"
-            alt="Weather-icon"></span>'s Current Weather:</h1>
+      <h1 class=" fw-bold text-center mb-4"> <span id="cityName"><img class="img-fluid" src="./images/113.png" alt="Weather-icon"></span>'s Current Weather:</h1>
       <div class="d-md-flex justify-content-md-center">
         <!-- Humidity Wind LocalTime -->
         <div class="d-flex justify-content-around text-center flex-md-column mb-sm-4 mb-md-0 me-md-4">
@@ -358,7 +356,6 @@
         data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">More Details
       </button>
     </div>
-
     <div class="row justify-content-evenly">
       <!-- next day -->
       <div class="card p-2 shortScale m-sm-4 bkgColor" style="width: 186px;">
@@ -401,12 +398,12 @@
                 <h6 class="mb-0 ">SunRise: </h6><span class="weeklySunRise ">00:00 AM</span>
               </div>
             </div>
-          </div>
-          <div class="row ">
-            <div class=" col-8  text-center ">
-              <h6 class="mb-0">SunSet:</h6><small class="weeklySunSet">00:00 PM</small>
+            <div class="row ">
+              <div class=" col-8  text-center ">
+                <h6 class="mb-0">SunSet:</h6><small class="weeklySunSet">00:00 PM</small>
+              </div>
+              <img src="./images/sunset (1).png" class="img-fluid col-4 py-1" alt="">
             </div>
-            <img src="./images/sunset (1).png" class="img-fluid col-4 py-1" alt="">
           </div>
         </div>
       </div>
@@ -679,6 +676,7 @@
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
 </body>
+
 <!-- adding the javascript file -->
 <script src="./script.js"></script>
 
