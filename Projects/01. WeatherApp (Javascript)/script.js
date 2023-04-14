@@ -2,7 +2,14 @@
 const userTime = document.querySelector(".userTime");
 const userDate = document.querySelector(".userDate");
 
-
+let date = new Date();
+const setdate = new Intl.DateTimeFormat(navigator.language, {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+}).format(date);
+userDate.textContent = setdate;
 
 const inputBox = document.getElementById("inputBox");
 const countryName = document.getElementById("countryName");
