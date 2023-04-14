@@ -4,9 +4,12 @@
   outline: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #e8f0fe;
+}
 /* Navbar starts here */
 form {
-  background-color: white;
+  background-color: #f4f7fb;
   display: flex;
   width: fit-content;
   border-radius: 10px;
@@ -21,6 +24,7 @@ form {
   border-color: inherit;
   -webkit-box-shadow: none;
   box-shadow: none;
+  background-color: transparent;
 }
 #search-btn {
   border: none;
@@ -45,6 +49,7 @@ form {
     font-size: 4rem;
   }
 }
+
 .sun {
   background: linear-gradient(135deg, rgb(117, 167, 248), rgb(244, 196, 98));
 }
@@ -102,6 +107,7 @@ form {
   );
   color: #e8cfca;
 }
+
 @media (min-width: 1200px) {
   .overalldetails {
     position: relative;
@@ -123,9 +129,11 @@ form {
     transform: translate(20%, 50%);
     z-index: 999;
   }
+
   .currentDayWeather {
     position: relative;
   }
+
   .box12am {
     position: absolute;
     top: 4%;
@@ -190,6 +198,7 @@ form {
     color: #e8cfca;
   }
 }
+
 .buttonForecast {
   border: none;
   padding: 10px 15px;
