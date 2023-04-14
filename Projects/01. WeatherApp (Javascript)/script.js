@@ -1,3 +1,9 @@
+//  Date & live T  ime of user locationD
+const userTime = document.querySelector(".userTime");
+const userDate = document.querySelector(".userDate");
+
+
+
 const inputBox = document.getElementById("inputBox");
 const countryName = document.getElementById("countryName");
 const stateName = document.getElementById("stateName");
