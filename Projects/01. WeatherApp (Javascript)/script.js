@@ -11,6 +11,17 @@ const setdate = new Intl.DateTimeFormat(navigator.language, {
 }).format(date);
 userDate.textContent = setdate;
 
+setInterval(() => {
+  date = new Date();
+  const settime = new Intl.DateTimeFormat(navigator.language, {
+    hour: "numeric",
+    minute: "numeric",
+    second: "numeric",
+  }).format(date);
+  userTime.textContent = settime;
+}, 1000);
+
+
 const inputBox = document.getElementById("inputBox");
 const countryName = document.getElementById("countryName");
 const stateName = document.getElementById("stateName");
