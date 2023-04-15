@@ -33,3 +33,9 @@ const weatherStatus = document.getElementById("weatherStatus");
 const countryName = document.getElementById("countryName");
 const regionName = document.getElementById("regionName");
 const timeZone = document.getElementById("timeZone");
+
+// Hourly updates
+const hourlyTemp = document.querySelectorAll(".hourlyTemp");
+const hourlyLogo = document.querySelectorAll(".hourlyLogo");
+const hourlyStatus = document.querySelectorAll(".hourlyStatus");
+const hourlyWind = document.querySelectorAll(".hourlyWind");
