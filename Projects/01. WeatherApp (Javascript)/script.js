@@ -20,3 +20,11 @@ setInterval(() => {
   }).format(date);
   userTime.textContent = settime;
 }, 1000);
+
+// Current weather report
+const inputBox = document.getElementById("inputBox");
+const cityName = document.getElementById("cityName");
+const humidity = document.getElementById("humidity");
+const windSpeed = document.getElementById("windSpeed");
+const localTime = document.getElementById("localTime");
+const temperature = document.getElementById("temperature");
