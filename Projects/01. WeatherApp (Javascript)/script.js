@@ -21,6 +21,7 @@ setInterval(() => {
   userTime.textContent = settime;
 }, 1000);
 
+
 // Current weather report
 const inputBox = document.getElementById("inputBox");
 const cityName = document.getElementById("cityName");
@@ -40,10 +41,16 @@ const hourlyLogo = document.querySelectorAll(".hourlyLogo");
 const hourlyStatus = document.querySelectorAll(".hourlyStatus");
 const hourlyWind = document.querySelectorAll(".hourlyWind");
 
-
 // today's weather summary
 const sunriseTime = document.querySelector(".sunriseTime");
 const sunsetTime = document.querySelector(".sunsetTime");
 const moonriseTime = document.querySelectorAll(".moonriseTime");
 const moonsetTime = document.querySelectorAll(".moonsetTime");
 const maxTempToday = document.getElementById("maxTempToday");
+const minTempToday = document.getElementById("minTempToday");
+const maxWindToday = document.getElementById("maxWindToday");
+const todaysLogo = document.getElementById("todaysLogo");
+const todayStatus = document.getElementById("todayStatus");
+const rainToday = document.getElementById("rainToday");
+const snowToday = document.getElementById("snowToday");
+const avgHumidityToday = document.getElementById("avgHumidityToday");
