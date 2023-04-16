@@ -86,3 +86,12 @@ const getData = async (event) => {
     displayCurrentWeatherData();
   }
 };
+
+// Current Day's Weather details
+// Current weather report
+const displayCurrentWeatherData = () => {
+  cityName.innerHTML = orgData.location.name;
+  humidity.innerHTML = orgData.current.humidity;
+  windSpeed.innerHTML = orgData.current.wind_kph;
+  localTime.innerHTML = orgData.location.localtime.slice(11);
+};
