@@ -21,7 +21,6 @@ setInterval(() => {
   userTime.textContent = settime;
 }, 1000);
 
-
 // Current weather report
 const inputBox = document.getElementById("inputBox");
 const cityName = document.getElementById("cityName");
@@ -67,3 +66,7 @@ const weeklyMaxWind = document.querySelectorAll(".weeklyMaxWind");
 const weeklyAvgHumidity = document.querySelectorAll(".weeklyAvgHumidity");
 const weeklyRainStatus = document.querySelectorAll(".weeklyRainStatus");
 const weeklySnowStatus = document.querySelectorAll(".weeklySnowStatus");
+
+let orgData;
+let todaysForecast;
+let nextWeekForecast;
