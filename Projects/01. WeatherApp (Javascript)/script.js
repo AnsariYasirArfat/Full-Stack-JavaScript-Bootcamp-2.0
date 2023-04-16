@@ -54,3 +54,11 @@ const todayStatus = document.getElementById("todayStatus");
 const rainToday = document.getElementById("rainToday");
 const snowToday = document.getElementById("snowToday");
 const avgHumidityToday = document.getElementById("avgHumidityToday");
+
+// Forecast for next week
+const weelyDate = document.querySelectorAll(".weelyDate");
+const weeklyMaxTemp = document.querySelectorAll(".weeklyMaxTemp");
+const weeklyMinTemp = document.querySelectorAll(".weeklyMinTemp");
+const weeklystatus = document.querySelectorAll(".weeklystatus");
+const weeklyIcon = document.querySelectorAll(".weeklyIcon");
+const weeklySunRise = document.querySelectorAll(".weeklySunRise");
