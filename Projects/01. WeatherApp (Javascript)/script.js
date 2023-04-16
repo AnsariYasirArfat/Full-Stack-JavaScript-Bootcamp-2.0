@@ -70,3 +70,19 @@ const weeklySnowStatus = document.querySelectorAll(".weeklySnowStatus");
 let orgData;
 let todaysForecast;
 let nextWeekForecast;
+
+const getData = async (event) => {
+  event.preventDefault();
+  const city = inputBox.value;
+  if (city) {
+    // Fetch Details from weather API
+    const fetchData = await fetch(
+      `http://api.weatherapi.com/v1/forecast.json?key=aaa0929007ce456e8fb142153232602&q=${city}&days=14`
+    );
+
+    orgData = await fetchData.json();
+    // console.log(orgData);
+    // Current weather
+    displayCurrentWeatherData();
+  }
+};
