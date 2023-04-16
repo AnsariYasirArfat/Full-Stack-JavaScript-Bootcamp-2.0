@@ -94,4 +94,10 @@ const displayCurrentWeatherData = () => {
   humidity.innerHTML = orgData.current.humidity;
   windSpeed.innerHTML = orgData.current.wind_kph;
   localTime.innerHTML = orgData.location.localtime.slice(11);
+  temperature.innerHTML = orgData.current.temp_c;
+  logoImage.src = orgData.current.condition.icon;
+  weatherStatus.innerHTML = orgData.current.condition.text;
+  countryName.innerHTML = orgData.location.country;
+  regionName.innerHTML = orgData.location.region;
+  timeZone.innerHTML = orgData.location.tz_id;
 };
