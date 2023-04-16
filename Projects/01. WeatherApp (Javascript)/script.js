@@ -39,3 +39,11 @@ const hourlyTemp = document.querySelectorAll(".hourlyTemp");
 const hourlyLogo = document.querySelectorAll(".hourlyLogo");
 const hourlyStatus = document.querySelectorAll(".hourlyStatus");
 const hourlyWind = document.querySelectorAll(".hourlyWind");
+
+
+// today's weather summary
+const sunriseTime = document.querySelector(".sunriseTime");
+const sunsetTime = document.querySelector(".sunsetTime");
+const moonriseTime = document.querySelectorAll(".moonriseTime");
+const moonsetTime = document.querySelectorAll(".moonsetTime");
+const maxTempToday = document.getElementById("maxTempToday");
