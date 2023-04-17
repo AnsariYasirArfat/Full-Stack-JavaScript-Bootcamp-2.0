@@ -84,6 +84,10 @@ const getData = async (event) => {
     // console.log(orgData);
     // Current weather
     displayCurrentWeatherData();
+  } else {
+    // Show Modal
+    const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
+    alertPlaceholder.innerHTML = ``;
   }
 };
 
