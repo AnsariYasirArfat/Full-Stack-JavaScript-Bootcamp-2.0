@@ -158,4 +158,12 @@ const displayHourlyWeatherData = () => {
 
   hourlyLogo[5].src = todaysForecast.hour[21].condition.icon;
   hourlyStatus[5].innerHTML = todaysForecast.hour[21].condition.text;
+
+  // wind
+  hourlyWind[0].innerHTML = todaysForecast.hour[0].wind_kph;
+  hourlyWind[1].innerHTML = todaysForecast.hour[6].wind_kph;
+  hourlyWind[2].innerHTML = todaysForecast.hour[12].wind_kph;
+  hourlyWind[3].innerHTML = todaysForecast.hour[15].wind_kph;
+  hourlyWind[4].innerHTML = todaysForecast.hour[18].wind_kph;
+  hourlyWind[5].innerHTML = todaysForecast.hour[21].wind_kph;
 };
