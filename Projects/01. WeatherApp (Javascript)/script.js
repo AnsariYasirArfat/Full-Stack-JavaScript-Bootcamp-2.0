@@ -84,6 +84,10 @@ const getData = async (event) => {
     // console.log(orgData);
     // Current weather
     displayCurrentWeatherData();
+
+    // Day report
+    todaysForecast = orgData.forecast.forecastday[0];
+    displayHourlyWeatherData();
   } else {
     // Show Modal
     const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
@@ -125,3 +129,6 @@ const displayCurrentWeatherData = () => {
   regionName.innerHTML = orgData.location.region;
   timeZone.innerHTML = orgData.location.tz_id;
 };
+
+// Hourly updates
+const displayHourlyWeatherData = () => {};
