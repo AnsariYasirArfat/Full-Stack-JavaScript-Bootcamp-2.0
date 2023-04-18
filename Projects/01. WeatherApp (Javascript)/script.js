@@ -131,4 +131,12 @@ const displayCurrentWeatherData = () => {
 };
 
 // Hourly updates
-const displayHourlyWeatherData = () => {};
+const displayHourlyWeatherData = () => {
+  // temperatues
+  hourlyTemp[0].innerHTML = todaysForecast.hour[0].temp_c;
+  hourlyTemp[1].innerHTML = todaysForecast.hour[6].temp_c;
+  hourlyTemp[2].innerHTML = todaysForecast.hour[12].temp_c;
+  hourlyTemp[3].innerHTML = todaysForecast.hour[15].temp_c;
+  hourlyTemp[4].innerHTML = todaysForecast.hour[18].temp_c;
+  hourlyTemp[5].innerHTML = todaysForecast.hour[21].temp_c;
+};
