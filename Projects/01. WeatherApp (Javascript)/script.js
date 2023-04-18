@@ -139,4 +139,23 @@ const displayHourlyWeatherData = () => {
   hourlyTemp[3].innerHTML = todaysForecast.hour[15].temp_c;
   hourlyTemp[4].innerHTML = todaysForecast.hour[18].temp_c;
   hourlyTemp[5].innerHTML = todaysForecast.hour[21].temp_c;
+
+  // condition's status
+  hourlyLogo[0].src = todaysForecast.hour[0].condition.icon;
+  hourlyStatus[0].innerHTML = todaysForecast.hour[0].condition.text;
+
+  hourlyLogo[1].src = todaysForecast.hour[6].condition.icon;
+  hourlyStatus[1].innerHTML = todaysForecast.hour[6].condition.text;
+
+  hourlyLogo[2].src = todaysForecast.hour[12].condition.icon;
+  hourlyStatus[2].innerHTML = todaysForecast.hour[12].condition.text;
+
+  hourlyLogo[3].src = todaysForecast.hour[15].condition.icon;
+  hourlyStatus[3].innerHTML = todaysForecast.hour[15].condition.text;
+
+  hourlyLogo[4].src = todaysForecast.hour[18].condition.icon;
+  hourlyStatus[4].innerHTML = todaysForecast.hour[18].condition.text;
+
+  hourlyLogo[5].src = todaysForecast.hour[21].condition.icon;
+  hourlyStatus[5].innerHTML = todaysForecast.hour[21].condition.text;
 };
