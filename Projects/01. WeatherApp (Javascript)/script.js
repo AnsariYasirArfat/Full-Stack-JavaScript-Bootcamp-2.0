@@ -89,6 +89,10 @@ const getData = async (event) => {
     todaysForecast = orgData.forecast.forecastday[0];
     displayHourlyWeatherData();
     displayTodayWeatherSummary();
+
+    // Forecast for next week
+    nextWeekForecast = orgData.forecast.forecastday;
+    displayForecastWeatherForWeek();
   } else {
     // Show Modal
     const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
@@ -189,4 +193,17 @@ const displayTodayWeatherSummary = () => {
   rainToday.innerHTML = todaysForecast.day.daily_chance_of_rain;
   snowToday.innerHTML = todaysForecast.day.daily_chance_of_snow;
   avgHumidityToday.innerHTML = todaysForecast.day.avghumidity;
+};
+
+// Forecast Weather details
+
+// Forecast for next week
+const displayForecastWeatherForWeek = () => {
+  for (let i = 0; i <= 1; i++) {
+    weelyDate[i].innerHTML = nextWeekForecast[i + 1].date;
+    weeklyMaxTemp[i].innerHTML = nextWeekForecast[i + 1].day.maxtemp_c;
+    weeklyMinTemp[i].innerHTML = nextWeekForecast[i + 1].day.mintemp_c;
+    weeklystatus[i].innerHTML = nextWeekForecast[i + 1].day.condition.text;
+    weeklyIcon[i].src = nextWeekForecast[i + 1].day.condition.icon;
+  }
 };
