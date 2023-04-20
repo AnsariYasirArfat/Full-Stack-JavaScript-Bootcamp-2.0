@@ -196,6 +196,20 @@ const displayTodayWeatherSummary = () => {
 };
 
 // Forecast Weather details
+// Button for Forecast info
+const buttonForecast = document.querySelector(".buttonForecast");
+const buttonText = buttonForecast.textContent;
+buttonForecast.addEventListener("click", function () {
+  const isExpanded = buttonForecast.getAttribute("aria-expanded") === "true";
+
+  if (isExpanded) {
+    buttonForecast.textContent = "Summary"; // set to new text
+  } else {
+    buttonForecast.textContent = buttonText; // set back to original text
+  }
+
+  buttonForecast.setAttribute("aria-expanded", !isExpanded); // toggle aria-expanded attribute
+});
 
 // Forecast for next week
 const displayForecastWeatherForWeek = () => {
