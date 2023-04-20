@@ -173,4 +173,9 @@ const displayTodayWeatherSummary = () => {
   // Sun
   sunriseTime.innerHTML = todaysForecast.astro.sunrise;
   sunsetTime.innerHTML = todaysForecast.astro.sunset;
+  // Moon
+  moonriseTime[0].innerHTML = todaysForecast.astro.moonrise;
+  moonsetTime[0].innerHTML = todaysForecast.astro.moonset;
+  moonriseTime[1].innerHTML = todaysForecast.astro.moonrise;
+  moonsetTime[1].innerHTML = todaysForecast.astro.moonset;
 };
