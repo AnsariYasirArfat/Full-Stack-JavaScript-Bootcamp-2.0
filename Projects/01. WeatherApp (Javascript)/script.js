@@ -88,6 +88,7 @@ const getData = async (event) => {
     // Day report
     todaysForecast = orgData.forecast.forecastday[0];
     displayHourlyWeatherData();
+    displayTodayWeatherSummary();
   } else {
     // Show Modal
     const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
@@ -166,4 +167,10 @@ const displayHourlyWeatherData = () => {
   hourlyWind[3].innerHTML = todaysForecast.hour[15].wind_kph;
   hourlyWind[4].innerHTML = todaysForecast.hour[18].wind_kph;
   hourlyWind[5].innerHTML = todaysForecast.hour[21].wind_kph;
+};
+
+const displayTodayWeatherSummary = () => {
+  // Sun
+  sunriseTime.innerHTML = todaysForecast.astro.sunrise;
+  sunsetTime.innerHTML = todaysForecast.astro.sunset;
 };
