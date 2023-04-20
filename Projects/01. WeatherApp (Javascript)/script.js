@@ -205,5 +205,13 @@ const displayForecastWeatherForWeek = () => {
     weeklyMinTemp[i].innerHTML = nextWeekForecast[i + 1].day.mintemp_c;
     weeklystatus[i].innerHTML = nextWeekForecast[i + 1].day.condition.text;
     weeklyIcon[i].src = nextWeekForecast[i + 1].day.condition.icon;
+    weeklySunRise[i].innerHTML = nextWeekForecast[i + 1].astro.sunrise;
+    weeklySunSet[i].innerHTML = nextWeekForecast[i + 1].astro.sunset;
+    weeklyMaxWind[i].innerHTML = nextWeekForecast[i + 1].day.maxwind_kph;
+    weeklyAvgHumidity[i].innerHTML = nextWeekForecast[i + 1].day.avghumidity;
+    weeklyRainStatus[i].innerHTML =
+      nextWeekForecast[i + 1].day.daily_chance_of_rain;
+    weeklySnowStatus[i].innerHTML =
+      nextWeekForecast[i + 1].day.daily_chance_of_snow;
   }
 };
