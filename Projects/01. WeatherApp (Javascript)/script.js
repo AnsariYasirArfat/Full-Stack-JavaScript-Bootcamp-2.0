@@ -81,10 +81,8 @@ const getData = async (event) => {
     );
 
     orgData = await fetchData.json();
-    // console.log(orgData);
     // Current weather
     displayCurrentWeatherData();
-
     // Day report
     todaysForecast = orgData.forecast.forecastday[0];
     displayHourlyWeatherData();
@@ -93,6 +91,9 @@ const getData = async (event) => {
     // Forecast for next week
     nextWeekForecast = orgData.forecast.forecastday;
     displayForecastWeatherForWeek();
+
+    // Changing background color according to local time
+    backgroundColorAccLocaltime();
   } else {
     // Show Modal
     const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
@@ -228,4 +229,10 @@ const displayForecastWeatherForWeek = () => {
     weeklySnowStatus[i].innerHTML =
       nextWeekForecast[i + 1].day.daily_chance_of_snow;
   }
+};
+
+// Changing background color according to local time of searched location
+const backgroundColorAccLocaltime = () => {
+  let bkgColorTime = orgData.location.localtime.slice(-5, -3);
+  const elements = document.querySelectorAll(".bkgColor");
 };
