@@ -235,4 +235,13 @@ const displayForecastWeatherForWeek = () => {
 const backgroundColorAccLocaltime = () => {
   let bkgColorTime = orgData.location.localtime.slice(-5, -3);
   const elements = document.querySelectorAll(".bkgColor");
+  if (bkgColorTime >= 0 && bkgColorTime <= 5) {
+    document.body.style.background =
+      "linear-gradient(90deg, rgba(6,18,37,0.8), rgba(5,38,77,0.8), rgba(7,63,126,0.8), rgba(34,76,144,0.8))";
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].style.background =
+        "linear-gradient( #061225, #05264d, #073f7e, #224c90)";
+    }
+    document.body.style.color = "#c1cfe4";
+  }
 };
