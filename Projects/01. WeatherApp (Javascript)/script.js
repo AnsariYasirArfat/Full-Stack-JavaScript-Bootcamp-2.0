@@ -251,5 +251,13 @@ const backgroundColorAccLocaltime = () => {
         "linear-gradient(rgba(34,76,144,0.7), rgba(136,159,197,0.7), rgba(204,204,218,0.7),#f1f1f2,#f8fae1,#f2f6bb)";
     }
     document.body.style.color = "#224c90";
+  } else if (bkgColorTime >= 12 && bkgColorTime <= 14) {
+    document.body.style.background =
+      "linear-gradient(90deg, rgba(242,246,187,0.7), rgba(243,243,178,0.7), rgba(250,250,142,0.7), rgba(255,255,105,0.7))";
+    for (let i = 0; i < elements.length; i++) {
+      elements[i].style.background =
+        "linear-gradient( #f2f6bb, #f3f3b2, #fafa8e, #ffff69)";
+    }
+    document.body.style.color = "#4f4f0c";
   }
 };
