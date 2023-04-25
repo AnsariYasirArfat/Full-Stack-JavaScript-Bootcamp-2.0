@@ -1,4 +1,4 @@
-//  Date & live Time of user location
+//  Real Time & Date of user location
 const userTime = document.querySelector(".userTime");
 const userDate = document.querySelector(".userDate");
 
@@ -74,6 +74,7 @@ let nextWeekForecast;
 const getData = async (event) => {
   event.preventDefault();
   const city = inputBox.value;
+
   if (city) {
     // Fetch Details from weather API
     const fetchData = await fetch(
@@ -81,6 +82,7 @@ const getData = async (event) => {
     );
 
     orgData = await fetchData.json();
+    // console.log(orgData);
     // Current weather
     displayCurrentWeatherData();
     // Day report
@@ -99,8 +101,8 @@ const getData = async (event) => {
     const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
     alertPlaceholder.innerHTML = `
     <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered">
-       <div class="modal-content">
+    <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
         <div class="modal-header">
           <h1 class="modal-title fs-5" id="staticBackdropLabel">Error</h1>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -113,7 +115,9 @@ const getData = async (event) => {
         </div>
       </div>
     </div>
-  </div>`;
+  </div>
+`;
+
     const modal = new bootstrap.Modal(
       document.getElementById("staticBackdrop")
     );
@@ -135,7 +139,6 @@ const displayCurrentWeatherData = () => {
   regionName.innerHTML = orgData.location.region;
   timeZone.innerHTML = orgData.location.tz_id;
 };
-
 // Hourly updates
 const displayHourlyWeatherData = () => {
   // temperatues
@@ -174,11 +177,11 @@ const displayHourlyWeatherData = () => {
   hourlyWind[5].innerHTML = todaysForecast.hour[21].wind_kph;
 };
 
+// today's weather summary
 const displayTodayWeatherSummary = () => {
   // Sun
   sunriseTime.innerHTML = todaysForecast.astro.sunrise;
   sunsetTime.innerHTML = todaysForecast.astro.sunset;
-
   // Moon
   moonriseTime[0].innerHTML = todaysForecast.astro.moonrise;
   moonsetTime[0].innerHTML = todaysForecast.astro.moonset;
@@ -211,8 +214,8 @@ buttonForecast.addEventListener("click", function () {
 
   buttonForecast.setAttribute("aria-expanded", !isExpanded); // toggle aria-expanded attribute
 });
-
 // Forecast for next week
+
 const displayForecastWeatherForWeek = () => {
   for (let i = 0; i <= 1; i++) {
     weelyDate[i].innerHTML = nextWeekForecast[i + 1].date;
