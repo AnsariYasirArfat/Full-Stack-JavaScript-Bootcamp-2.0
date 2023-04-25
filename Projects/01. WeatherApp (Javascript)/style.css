@@ -73,7 +73,6 @@ form {
   );
   color: #224c90;
 }
-
 .box12pm {
   background: linear-gradient(90deg, #f2f6bb, #f3f3b2, #fafa8e, #ffff69);
   color: #4f4f0c;
@@ -90,12 +89,10 @@ form {
   );
   color: #606003;
 }
-
 .box6pm {
   background: linear-gradient(90deg, #ff9900, #ff7a11, #fe3828, #b1260d);
   color: #eee9e2;
 }
-
 .box9pm {
   background: linear-gradient(
     90deg,
@@ -206,7 +203,6 @@ form {
   width: 130px;
   background-color: white;
 }
-
 .buttonForecast:hover {
   background-color: rgb(71, 69, 69);
   color: #e8f0fe;
