@@ -1,12 +1,14 @@
+import Header from "./Mycomponents/Header";
+
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-      </header>
-    </div>
+    <>
+      <Header
+        title="TaskTracker"
+        filterText={filterText}
+        onFilterTextChange={setFilterText}
+      />
+    </>
   );
 }
 
