@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import DisplayDate from "./DisplayDate";
 
 Header.propTypes = {
   title: PropTypes.string,
@@ -38,6 +39,8 @@ function Header(props) {
               onChange={(e) => props.onFilterTextChange(e.target.value)}
             />
           </form>
+          {/* Live Date & Time */}
+          <DisplayDate />
         </div>
       </nav>
     </>
