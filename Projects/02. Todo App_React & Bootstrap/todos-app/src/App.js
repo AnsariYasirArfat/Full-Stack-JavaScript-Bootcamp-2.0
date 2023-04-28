@@ -1,4 +1,4 @@
-import Header from "./Mycomponents/Header";
+import Header from "./Components/Header";
 import { useState } from "react";
 
 function App() {
