@@ -1,4 +1,6 @@
 import Header from "./Components/Header";
+import Todos from "./Mycomponents/Todos";
+
 import { useState } from "react";
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
         filterText={filterText}
         onFilterTextChange={setFilterText}
       />
+      <Todos todos={todos} />
     </>
   );
 }
