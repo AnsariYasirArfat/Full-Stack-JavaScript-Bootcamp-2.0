@@ -1,6 +1,8 @@
 import React from "react";
 import PropTypes from "prop-types";
 import DisplayDate from "./DisplayDate";
+import mainLogo from "../assets/mainLogo.png";
+import searchInList from "../assets/icons8-search-in-list-24.png";
 
 Header.propTypes = {
   title: PropTypes.string,
@@ -24,21 +26,24 @@ function Header(props) {
             </div>
           </div>
           {/* Input Form for Searhing task  */}
-          <form
-            onSubmit={(e) => {
-              e.preventDefault();
-            }}
-            className="py-5 col"
-            role="search"
-          >
-            <input
-              className="form-control inputBox m-auto py-2"
-              type="search"
-              value={props.filterText}
-              placeholder="Search your assigned tasks here...."
-              onChange={(e) => props.onFilterTextChange(e.target.value)}
-            />
-          </form>
+          <div className="col p-2">
+            <form
+              onSubmit={(e) => {
+                e.preventDefault();
+              }}
+              className="py-5 col"
+              role="search"
+            >
+              <img src={searchInList} alt="serch" className="searchLogo" />
+              <input
+                className="form-control inputBox m-auto py-2"
+                type="search"
+                value={props.filterText}
+                placeholder="Search your assigned tasks here...."
+                onChange={(e) => props.onFilterTextChange(e.target.value)}
+              />
+            </form>
+          </div>
           {/* Live Date & Time */}
           <DisplayDate />
         </div>
