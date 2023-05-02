@@ -17,3 +17,19 @@
   border-radius: 5px;
   padding: 10px 10px;
 }
+
+.inputBox {
+  max-width: 300px;
+  background-color: #082837e5;
+  border: none;
+  color: #c8f1eb;
+}
+.inputBox:focus {
+  border-color: inherit;
+  background-color: #c8f1eb;
+  color: #082837;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  box-shadow: 2px 2px 20px #e9f08e;
+  font-weight: 500;
+}
