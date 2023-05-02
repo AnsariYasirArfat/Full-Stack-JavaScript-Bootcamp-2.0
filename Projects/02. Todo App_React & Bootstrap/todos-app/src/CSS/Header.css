@@ -33,3 +33,12 @@
   box-shadow: 2px 2px 20px #e9f08e;
   font-weight: 500;
 }
+
+.inputBox:focus::placeholder {
+  color: #447ca4;
+  font-weight: 600;
+}
+.inputBox::placeholder {
+  color: #447ca4;
+  font-weight: 500;
+}
