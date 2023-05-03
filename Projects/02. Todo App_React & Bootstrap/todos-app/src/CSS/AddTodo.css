@@ -1,0 +1,12 @@
+.addTask {
+  color: #e9f08e;
+  font-size: 30px;
+}
+
+.addTaskForm {
+  background-color: #082837;
+  max-width: 500px;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: all 0.7s ease-in-out;
+}

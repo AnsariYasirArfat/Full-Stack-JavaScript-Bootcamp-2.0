@@ -33,13 +33,13 @@ const AddTodo = ({ addTodo }) => {
       {showModal && (
         <AlertModal show={showModal} onHide={() => setShowModal(false)} />
       )}
-      <Form className="" onSubmit={submit} ref={ref}>
-        <h3 className="">AddTask</h3>
+      <Form className="addTaskForm" onSubmit={submit} ref={ref}>
+        <h3 className="addTask">AddTask</h3>
         <FloatingLabel controlId="title" label="Todo Title!" className="">
           <Form.Control
             type="text"
             value={title}
-            className=" mb-3  "
+            className=" mb-3  inputText"
             placeholder="Todo Title!"
             style={{ height: "60px", fontSize: "large" }}
           />
