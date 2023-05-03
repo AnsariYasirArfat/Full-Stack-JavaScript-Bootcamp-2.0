@@ -5,6 +5,16 @@ import addTaskImg from "../assets/addTask.png";
 const AddTodo = ({ addTodo }) => {
   // For Model
   const [showModal, setShowModal] = useState(false);
+
+  // Button elements change on hover
+  const [isHoveredOnButton, setIsHoveredOnButton] = useState(false);
+  const mouseEnterButton = () => {
+    setIsHoveredOnButton(true);
+  };
+  const mouseLeaveButtton = () => {
+    setIsHoveredOnButton(false);
+  };
+
   // On form submition
   const submit = (e) => {
     e.preventDefault();
@@ -45,16 +55,23 @@ const AddTodo = ({ addTodo }) => {
           />
         </FloatingLabel>
 
-        <button
-          type="submit"
-          className=""
-          onMouseEnter={mouseEnterButton}
-          onMouseLeave={mouseLeaveButtton}
-        >
-          <img src={addTaskImg} alt="search" width={30} className="" />
-
-          <span className="">Add Task</span>
-        </button>
+        {isHoveredOnForm && (
+          <button
+            type="submit"
+            className={`addTaskButton ${
+              isHoveredOnForm
+                ? "d-flex justify-content-evenly align-items-center m-auto"
+                : ""
+            }`}
+            onMouseEnter={mouseEnterButton}
+            onMouseLeave={mouseLeaveButtton}
+          >
+            {isHoveredOnButton && (
+              <img src={addTaskImg} alt="search" width={30} className="" />
+            )}
+            <span className="">Add Task</span>
+          </button>
+        )}
       </Form>
     </div>
   );
