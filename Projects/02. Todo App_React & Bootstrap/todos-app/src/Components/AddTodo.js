@@ -3,6 +3,8 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import addTaskImg from "../assets/addTask.png";
 
 const AddTodo = ({ addTodo }) => {
+  // For Model
+  const [showModal, setShowModal] = useState(false);
   // On form submition
   const submit = (e) => {
     e.preventDefault();
@@ -18,6 +20,9 @@ const AddTodo = ({ addTodo }) => {
   };
   return (
     <div className="">
+      {showModal && (
+        <AlertModal show={showModal} onHide={() => setShowModal(false)} />
+      )}
       <Form className="" onSubmit={submit} ref={ref}>
         <h3 className="">AddTask</h3>
         <FloatingLabel controlId="title" label="Todo Title!" className="">
@@ -54,3 +59,4 @@ const AddTodo = ({ addTodo }) => {
     </div>
   );
 };
+export default AddTodo;
