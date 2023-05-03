@@ -24,3 +24,22 @@
   color: #082837;
   box-shadow: none;
 }
+
+.addTaskButton {
+  border: none;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 120px;
+  height: 40px;
+  color: #082837;
+  font-weight: 700;
+  transition: all 0.7s ease-in-out;
+  background-color: #e9f08e;
+  box-shadow: 1px 1px 20px #e9f08e;
+}
+.addTaskButton:hover {
+  background-color: #c8f1eb;
+  box-shadow: none;
+  width: 130px;
+  /* background-color: transparent; */
+}
