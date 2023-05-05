@@ -18,6 +18,15 @@
     max-width: 600px;
   }
 }
+
+.form-floating:not(.form-control:disabled)::before {
+  background-color: transparent;
+  color: #c8f1eb;
+}
+label {
+  color: #447ca4;
+  font-weight: 700;
+}
 .inputText {
   color: #c8f1eb;
   background-color: #051a26;
