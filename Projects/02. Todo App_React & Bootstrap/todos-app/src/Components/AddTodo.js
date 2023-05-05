@@ -29,13 +29,13 @@ const AddTodo = ({ addTodo }) => {
     }
   };
   return (
-    <div className="">
+    <div className="container p-4 text-center">
       {showModal && (
         <AlertModal show={showModal} onHide={() => setShowModal(false)} />
       )}
-      <Form className="addTaskForm" onSubmit={submit} ref={ref}>
+      <Form className="m-auto addTaskForm" onSubmit={submit} ref={ref}>
         <h3 className="addTask">AddTask</h3>
-        <FloatingLabel controlId="title" label="Todo Title!" className="">
+        <FloatingLabel controlId="title" label="Todo Title!">
           <Form.Control
             type="text"
             value={title}
@@ -67,9 +67,9 @@ const AddTodo = ({ addTodo }) => {
             onMouseLeave={mouseLeaveButtton}
           >
             {isHoveredOnButton && (
-              <img src={addTaskImg} alt="search" width={30} className="" />
+              <img src={addTaskImg} alt="search" width={30} />
             )}
-            <span className="">Add Task</span>
+            <span>Add Task</span>
           </button>
         )}
       </Form>
