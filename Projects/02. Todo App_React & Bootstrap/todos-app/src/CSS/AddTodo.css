@@ -10,7 +10,14 @@
   border-radius: 5px;
   transition: all 0.7s ease-in-out;
 }
-
+@media (min-width: 768px) {
+  .addTaskForm:hover {
+    box-shadow: 2px 2px 20px #e9f08e;
+    scale: 1.1;
+    padding: 15px 40px;
+    max-width: 600px;
+  }
+}
 .inputText {
   color: #c8f1eb;
   background-color: #051a26;
