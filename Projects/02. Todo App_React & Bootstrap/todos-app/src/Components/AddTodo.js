@@ -9,6 +9,21 @@ const AddTodo = ({ addTodo }) => {
   // For Model
   const [showModal, setShowModal] = useState(false);
 
+  // Title-Description & First capital letter
+  const [title, setTitle] = useState("");
+  const [desc, setDesc] = useState("");
+  const titleHandleChange = (e) => {
+    const capitalizedTitle = capitalizeFirstLetter(e.target.value);
+    setTitle(capitalizedTitle);
+  };
+  const descHandleChange = (e) => {
+    const capitalizedTitle = capitalizeFirstLetter(e.target.value);
+    setDesc(capitalizedTitle);
+  };
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
   // AddTask form Appearance
   const [isHoveredOnForm, setIsHoveredOnForm] = useState(false);
   const addTaskShowForm = () => {
@@ -60,6 +75,7 @@ const AddTodo = ({ addTodo }) => {
           <Form.Control
             type="text"
             value={title}
+            onChange={titleHandleChange}
             className=" mb-3  inputText"
             placeholder="Todo Title!"
             style={{ height: "60px", fontSize: "large" }}
@@ -70,6 +86,7 @@ const AddTodo = ({ addTodo }) => {
             <Form.Control
               type="text"
               value={desc}
+              onChange={descHandleChange}
               placeholder="Description"
               className="mb-3 inputText"
               style={{ height: "100px" }}
