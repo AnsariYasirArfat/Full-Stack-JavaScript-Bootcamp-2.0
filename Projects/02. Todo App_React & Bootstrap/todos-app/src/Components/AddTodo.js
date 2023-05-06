@@ -1,6 +1,7 @@
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
 import { useState } from "react";
+import AlertModal from "./AlertModal";
 import "../CSS/AddTodo.css";
 import addTaskImg from "../assets/addTask.png";
 
@@ -24,7 +25,6 @@ const AddTodo = ({ addTodo }) => {
       addTodo(title, desc);
       setTitle("");
       setDesc("");
-      // alert("Atleast Provide The Title!");
       return;
     } else {
       setShowModal(true);
