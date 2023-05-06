@@ -1,5 +1,7 @@
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
+import { useState } from "react";
+import "../CSS/AddTodo.css";
 import addTaskImg from "../assets/addTask.png";
 
 const AddTodo = ({ addTodo }) => {
