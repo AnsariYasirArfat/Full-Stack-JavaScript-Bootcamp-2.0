@@ -9,6 +9,20 @@ const AddTodo = ({ addTodo }) => {
   // For Model
   const [showModal, setShowModal] = useState(false);
 
+  // AddTask form Appearance
+  const [isHoveredOnForm, setIsHoveredOnForm] = useState(false);
+  const addTaskShowForm = () => {
+    setTimeout(() => {
+      setIsHoveredOnForm(true);
+    }, 500);
+  };
+
+  const addTaskRemoveForm = () => {
+    setTimeout(() => {
+      setIsHoveredOnForm(false);
+    }, 500);
+  };
+
   // Button elements change on hover
   const [isHoveredOnButton, setIsHoveredOnButton] = useState(false);
   const mouseEnterButton = () => {
@@ -35,7 +49,12 @@ const AddTodo = ({ addTodo }) => {
       {showModal && (
         <AlertModal show={showModal} onHide={() => setShowModal(false)} />
       )}
-      <Form className="m-auto addTaskForm" onSubmit={submit} ref={ref}>
+      <Form
+        className="m-auto addTaskForm"
+        onSubmit={submit}
+        onMouseEnter={addTaskShowForm}
+        onMouseLeave={addTaskRemoveForm}
+      >
         <h3 className="addTask">AddTask</h3>
         <FloatingLabel controlId="title" label="Todo Title!">
           <Form.Control
@@ -46,16 +65,17 @@ const AddTodo = ({ addTodo }) => {
             style={{ height: "60px", fontSize: "large" }}
           />
         </FloatingLabel>
-
-        <FloatingLabel controlId="desc" label="Todo Description (Optional)">
-          <Form.Control
-            type="text"
-            value={desc}
-            placeholder="Description"
-            className="mb-3 inputText"
-            style={{ height: "100px" }}
-          />
-        </FloatingLabel>
+        {isHoveredOnForm && (
+          <FloatingLabel controlId="desc" label="Todo Description (Optional)">
+            <Form.Control
+              type="text"
+              value={desc}
+              placeholder="Description"
+              className="mb-3 inputText"
+              style={{ height: "100px" }}
+            />
+          </FloatingLabel>
+        )}
 
         {isHoveredOnForm && (
           <button
