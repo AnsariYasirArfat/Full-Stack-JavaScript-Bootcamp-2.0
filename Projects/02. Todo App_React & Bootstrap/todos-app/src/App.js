@@ -37,6 +37,13 @@ function App() {
     );
   };
 
+  // For checked task
+  function onChecked(checkTodo) {
+    const updatedTodo = {
+      ...checkTodo,
+    };
+    setTodos(todos.map((t) => (t.sno === checkTodo.sno ? updatedTodo : t)));
+  }
   return (
     <>
       <Header
@@ -45,7 +52,7 @@ function App() {
         onFilterTextChange={setFilterText}
       />
       <AddTodo addTodo={addTodo} />
-      <Todos todos={todos} onDelete={onDelete} />
+      <Todos todos={todos} onDelete={onDelete} onChecked={onChecked} />
     </>
   );
 }
