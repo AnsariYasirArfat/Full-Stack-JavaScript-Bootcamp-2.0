@@ -28,6 +28,15 @@ function App() {
     setTodos([...todos, myTodo]);
   };
 
+  // Function for deleting todo
+  const onDelete = (todo) => {
+    setTodos(
+      todos.filter((e) => {
+        return e !== todo;
+      })
+    );
+  };
+
   return (
     <>
       <Header
@@ -36,7 +45,7 @@ function App() {
         onFilterTextChange={setFilterText}
       />
       <AddTodo addTodo={addTodo} />
-      <Todos todos={todos} />
+      <Todos todos={todos} onDelete={onDelete} />
     </>
   );
 }
