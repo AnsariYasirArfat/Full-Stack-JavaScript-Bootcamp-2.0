@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Todoitem = ({ todo, onDelete, onEdit, onChecked }) => {
   const [editing, setEditing] = useState(false);
@@ -6,7 +8,23 @@ const Todoitem = ({ todo, onDelete, onEdit, onChecked }) => {
 
   const onSave = () => {
     setEditing(false);
+    toast.info("Task Updated!", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
   };
+  // Alert after completing task
+  const checkedBox = () => {
+    if (todo.done === false) {
+      toast("Task Completed!", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+    } else {
+      toast("Task Reassigned!", {
+        position: toast.POSITION.TOP_RIGHT,
+      });
+    }
+  };
+
   if (editing) {
     todoItem = (
       <>
