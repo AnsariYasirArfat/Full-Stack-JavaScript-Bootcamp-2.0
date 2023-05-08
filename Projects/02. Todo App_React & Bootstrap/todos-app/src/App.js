@@ -41,6 +41,11 @@ function App() {
       }).format(new Date()),
     };
     setTodos([...todos, myTodo]);
+
+    // For Notification Alert
+    toast.success("New Task Added!", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
   };
 
   // Function for deleting todo
@@ -50,6 +55,10 @@ function App() {
         return e !== todo;
       })
     );
+    // For Notification Alert
+    toast.error("Task Deleted!", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
   };
 
   // Function for editing todo
@@ -94,6 +103,7 @@ function App() {
         onEdit={onEdit}
         onChecked={onChecked}
       />
+      <ToastContainer autoClose={1000} />
     </>
   );
 }
