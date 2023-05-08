@@ -4,6 +4,9 @@ const Todoitem = ({ todo, onDelete, onEdit, onChecked }) => {
   const [editing, setEditing] = useState(false);
   let todoItem;
 
+  const onSave = () => {
+    setEditing(false);
+  };
   if (editing) {
     todoItem = (
       <>
