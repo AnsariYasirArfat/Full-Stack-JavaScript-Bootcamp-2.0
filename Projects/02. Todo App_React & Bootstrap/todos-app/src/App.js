@@ -29,6 +29,15 @@ function App() {
       title,
       desc,
       done: false,
+      todoTime: new Intl.DateTimeFormat(navigator.language, {
+        hour: "numeric",
+        minute: "numeric",
+      }).format(new Date()),
+      todoDate: new Intl.DateTimeFormat(navigator.language, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      }).format(new Date()),
     };
     setTodos([...todos, myTodo]);
   };
@@ -46,6 +55,15 @@ function App() {
   function onEdit(editTodo) {
     const updatedTodo = {
       ...editTodo,
+      todoTime: new Intl.DateTimeFormat(navigator.language, {
+        hour: "numeric",
+        minute: "numeric",
+      }).format(new Date()),
+      todoDate: new Intl.DateTimeFormat(navigator.language, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+      }).format(new Date()),
     };
     setTodos(todos.map((t) => (t.sno === editTodo.sno ? updatedTodo : t)));
   }
