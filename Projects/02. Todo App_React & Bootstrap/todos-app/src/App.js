@@ -2,13 +2,18 @@ import Header from "./Components/Header";
 import Todos from "./Mycomponents/Todos";
 import AddTodo from "./Mycomponents/AddTodo";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
+  let initTodo;
+  if (localStorage.getItem("todos") === null) {
+    initTodo = [];
+  } else {
+    initTodo = JSON.parse(localStorage.getItem("todos"));
+  }
+
+  const [todos, setTodos] = useState(initTodo);
   const [filterText, setFilterText] = useState("");
-  const [todos, setTodos] = useState([
-    { todo: "first task todo", sno: 1, desc: "imp task need to be done quick" },
-  ]);
 
   // Function for adding todo
   const addTodo = (title, desc) => {
@@ -52,6 +57,10 @@ function App() {
     };
     setTodos(todos.map((t) => (t.sno === checkTodo.sno ? updatedTodo : t)));
   }
+  // To store the date in string format in local storage
+  useEffect(() => {
+    localStorage.setItem("todos", JSON.stringify(todos));
+  }, [todos]);
   return (
     <>
       <Header
