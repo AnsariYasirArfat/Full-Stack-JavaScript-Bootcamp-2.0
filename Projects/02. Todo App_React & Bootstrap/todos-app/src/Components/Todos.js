@@ -7,7 +7,7 @@ const Todos = (props) => {
 
   return (
     <div style={myStyle}>
-      <h3>Todos list</h3>
+      <h3>TaskDashBoardt</h3>
       <div>
         {/* Remaining tasks Section  */}
         <div>
