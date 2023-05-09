@@ -5,6 +5,21 @@ const Todos = (props) => {
     minHeight: "70vh",
   };
 
+  // {----------------Search Task (USING filter METHOD)----------------}
+  let remainTask = props.todos.filter((todo) => !todo.done);
+  let completedTask = props.todos.filter((todo) => todo.done);
+
+  if (props.filterText) {
+    remainTask = remainTask.filter(
+      (todo) =>
+        todo.title.toLowerCase().indexOf(props.filterText.toLowerCase()) !== -1
+    );
+    completedTask = completedTask.filter(
+      (todo) =>
+        todo.title.toLowerCase().indexOf(props.filterText.toLowerCase()) !== -1
+    );
+  }
+
   return (
     <div style={myStyle}>
       <h3>TaskDashBoardt</h3>
