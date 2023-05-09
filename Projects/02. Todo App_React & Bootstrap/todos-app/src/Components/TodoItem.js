@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import Collapse from "react-bootstrap/Collapse";
 
-const Todoitem = ({ todo, onDelete, onEdit, onChecked }) => {
+const Todoitem = ({ todo, onDelete, onEdit, onChecked, DescriptionState }) => {
   const [editing, setEditing] = useState(false);
   let todoItem;
 
@@ -87,10 +88,12 @@ const Todoitem = ({ todo, onDelete, onEdit, onChecked }) => {
             />
             <h5>{todo.title}</h5>
           </div>
-          <div>
-            <p>{todo.desc}</p>
-            <small>{todo.todoDate + " at " + todo.todoTime}</small>
-          </div>
+          <Collapse in={DescriptionState}>
+            <div>
+              <p>{todo.desc}</p>
+              <small>{todo.todoDate + " at " + todo.todoTime}</small>
+            </div>
+          </Collapse>
           <div>
             {!DescriptionState && (
               <div>
