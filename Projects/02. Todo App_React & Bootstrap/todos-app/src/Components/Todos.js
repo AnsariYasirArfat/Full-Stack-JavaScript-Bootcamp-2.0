@@ -1,9 +1,10 @@
-import React from "react";
+import { useState } from "react";
 
 const Todos = (props) => {
   let myStyle = {
     minHeight: "70vh",
   };
+  const [open, setOpen] = useState(true);
 
   // {----------------Search Task (USING filter METHOD)----------------}
   let remainTask = props.todos.filter((todo) => !todo.done);
@@ -23,6 +24,15 @@ const Todos = (props) => {
   return (
     <div style={myStyle}>
       <h3>TaskDashBoardt</h3>
+      <button
+        className=""
+        onClick={() => setOpen(!open)}
+        aria-controls="example-collapse-text"
+        aria-expanded={open}
+      >
+        {open ? "Hide Description" : "Show Description"}
+      </button>
+
       <div>
         {/* Remaining tasks Section  */}
         <div>
@@ -41,6 +51,7 @@ const Todos = (props) => {
                     onDelete={props.onDelete}
                     onEdit={props.onEdit}
                     onChecked={props.onChecked}
+                    DescriptionState={open}
                   />
                 );
               })
@@ -65,6 +76,7 @@ const Todos = (props) => {
                     onDelete={props.onDelete}
                     onEdit={props.onEdit}
                     onChecked={props.onChecked}
+                    DescriptionState={open}
                   />
                 );
               })
