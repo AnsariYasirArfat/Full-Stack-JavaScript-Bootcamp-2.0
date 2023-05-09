@@ -5,6 +5,7 @@ const Todos = (props) => {
     minHeight: "70vh",
   };
   const [open, setOpen] = useState(true);
+  const [isHoveredOnBox, setIsHoveredOnBox] = useState(false);
 
   // {----------------Search Task (USING filter METHOD)----------------}
   let remainTask = props.todos.filter((todo) => !todo.done);
@@ -52,6 +53,7 @@ const Todos = (props) => {
                     onEdit={props.onEdit}
                     onChecked={props.onChecked}
                     DescriptionState={open}
+                    HoveredOnBox={setIsHoveredOnBox}
                   />
                 );
               })
@@ -77,6 +79,7 @@ const Todos = (props) => {
                     onEdit={props.onEdit}
                     onChecked={props.onChecked}
                     DescriptionState={open}
+                    HoveredOnBox={setIsHoveredOnBox}
                   />
                 );
               })

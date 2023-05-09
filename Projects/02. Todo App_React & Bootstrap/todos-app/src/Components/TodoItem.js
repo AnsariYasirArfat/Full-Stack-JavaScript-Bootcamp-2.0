@@ -3,9 +3,23 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Collapse from "react-bootstrap/Collapse";
 
-const Todoitem = ({ todo, onDelete, onEdit, onChecked, DescriptionState }) => {
+const Todoitem = ({
+  todo,
+  onDelete,
+  onEdit,
+  onChecked,
+  DescriptionState,
+  HoveredOnBox,
+}) => {
   const [editing, setEditing] = useState(false);
   let todoItem;
+  const MouseEnterBox = () => {
+    HoveredOnBox(true);
+  };
+
+  const MouseLeaveBox = () => {
+    HoveredOnBox(false);
+  };
 
   const onSave = () => {
     setEditing(false);
@@ -29,7 +43,7 @@ const Todoitem = ({ todo, onDelete, onEdit, onChecked, DescriptionState }) => {
   if (editing) {
     todoItem = (
       <>
-        <div>
+        <div onMouseUp={MouseEnterBox} onMouseDown={MouseLeaveBox}>
           <div>
             <h5 style={{ color: "#0d6caf" }}>Edit Your Task:</h5>
             <button onClick={() => onSave()}>
@@ -73,7 +87,7 @@ const Todoitem = ({ todo, onDelete, onEdit, onChecked, DescriptionState }) => {
   } else {
     todoItem = (
       <>
-        <div>
+        <div onMouseEnter={MouseEnterBox} onMouseLeave={MouseLeaveBox}>
           <div>
             <input
               type="checkbox"
