@@ -43,6 +43,7 @@ const AddTodo = ({ addTodo }) => {
   const mouseEnterButton = () => {
     setIsHoveredOnButton(true);
   };
+
   const mouseLeaveButtton = () => {
     setIsHoveredOnButton(false);
   };
@@ -59,6 +60,7 @@ const AddTodo = ({ addTodo }) => {
       setShowModal(true);
     }
   };
+
   return (
     <div className="container p-4 text-center">
       {showModal && (
@@ -70,13 +72,14 @@ const AddTodo = ({ addTodo }) => {
         onMouseEnter={addTaskShowForm}
         onMouseLeave={addTaskRemoveForm}
       >
-        <h3 className="addTask">AddTask</h3>
-        <FloatingLabel controlId="title" label="Todo Title!">
+        <h3 className="addTask"> AddTask</h3>
+        <FloatingLabel controlId="title" label="Todo Title!" className="">
           <Form.Control
+            maxlength="50"
             type="text"
             value={title}
             onChange={titleHandleChange}
-            className=" mb-3  inputText"
+            className=" mb-3 inputText "
             placeholder="Todo Title!"
             style={{ height: "60px", fontSize: "large" }}
           />
@@ -115,4 +118,5 @@ const AddTodo = ({ addTodo }) => {
     </div>
   );
 };
+
 export default AddTodo;
