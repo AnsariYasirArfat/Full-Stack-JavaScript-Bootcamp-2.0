@@ -1,6 +1,6 @@
 .addTask {
   color: #e9f08e;
-  font-size: 30px;
+  font-size: 1.8rem;
 }
 
 .addTaskForm {
@@ -40,7 +40,6 @@ label {
   color: #082837;
   box-shadow: none;
 }
-
 .addTaskButton {
   border: none;
   border-radius: 5px;
