@@ -1,4 +1,5 @@
 import { useState } from "react";
+import TodoItem from "./TodoItem";
 
 const Todos = (props) => {
   let myStyle = {
@@ -25,14 +26,36 @@ const Todos = (props) => {
   return (
     <div style={myStyle}>
       <h3>TaskDashBoardt</h3>
-      <button
-        className=""
-        onClick={() => setOpen(!open)}
-        aria-controls="example-collapse-text"
-        aria-expanded={open}
-      >
-        {open ? "Hide Description" : "Show Description"}
-      </button>
+      {/* Description radio switch */}
+      <div>
+        <h6>Description:</h6>
+        <div>
+          <label>
+            <input
+              type="radio"
+              value="show"
+              checked={open}
+              onChange={() => setOpen(true)}
+              aria-controls="example-collapse-text"
+              aria-checked={open}
+            />
+            <span></span>
+            Show
+          </label>
+          <label>
+            <input
+              type="radio"
+              value="hide"
+              checked={!open}
+              onChange={() => setOpen(false)}
+              aria-controls="example-collapse-text"
+              aria-checked={!open}
+            />
+            <span></span>
+            Hide
+          </label>
+        </div>
+      </div>
 
       <div>
         {/* Remaining tasks Section  */}
