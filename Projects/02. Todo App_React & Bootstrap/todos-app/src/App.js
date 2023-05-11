@@ -4,6 +4,7 @@ import AddTodo from "./Mycomponents/AddTodo";
 import { useState, useEffect } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./CSS/App.css";
 
 function App() {
   let initTodo;

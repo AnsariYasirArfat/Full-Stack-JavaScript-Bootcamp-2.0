@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
+
+body {
+  background-color: #051a26;
+  font-family: "Darumadrop One", cursive;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Change the color of the scrollbar track */
+::-webkit-scrollbar {
+  background-color: #c8f1eb;
+  width: 10px;
+
+  margin-top: 20px;
+}
+
+/* Change the color of the scrollbar thumb (handle) */
+::-webkit-scrollbar-thumb {
+  background-color: #447ca4;
+}
+
+/* Change the color when hovering over the scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #e9f08e;
+}
+
+/* Style of Scrollbar For FireFox browser */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #447ca4 #c8f1eb;
+}
