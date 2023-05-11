@@ -25,7 +25,7 @@ function Header(props) {
             </div>
           </div>
           {/* Input Form for Searhing task  */}
-          <div className="col p-2">
+          <div className="col p-2 my-4 m-md-0">
             <form
               onSubmit={(e) => {
                 e.preventDefault();
@@ -38,7 +38,7 @@ function Header(props) {
                 className="form-control inputBox  "
                 type="search"
                 value={props.filterText}
-                placeholder="Search your assigned tasks here...."
+                placeholder="Search assigned tasks here...."
                 onChange={(e) => props.onFilterTextChange(e.target.value)}
               />
             </form>
