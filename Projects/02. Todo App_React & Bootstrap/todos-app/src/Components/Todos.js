@@ -1,5 +1,6 @@
 import { useState } from "react";
 import TodoItem from "./TodoItem";
+import "../CSS/Todos.css";
 
 const Todos = (props) => {
   let myStyle = {
