@@ -43,21 +43,32 @@ const Todoitem = ({
   if (editing) {
     todoItem = (
       <>
-        <div onMouseUp={MouseEnterBox} onMouseDown={MouseLeaveBox}>
-          <div>
-            <h5 style={{ color: "#0d6caf" }}>Edit Your Task:</h5>
-            <button onClick={() => onSave()}>
+        <div
+          onMouseUp={MouseEnterBox}
+          onMouseDown={MouseLeaveBox}
+          className="m-4 editBox taskBox taskBoxHeight uncheckedTaskBox "
+        >
+          <div className=" mx-4 d-flex justify-content-between align-items-center">
+            <h5 className="m-0 saveHeading" style={{ color: "#0d6caf" }}>
+              Edit Your Task:
+            </h5>
+            <button
+              onClick={() => onSave()}
+              className="btn btn-sm editDeleteButton my-1"
+            >
               <img
                 src="https://img.icons8.com/3d-fluency/94/null/save.png"
                 alt="Save"
                 width={30}
+                className=""
               />
               Save!
             </button>
           </div>
-          <div>
+          <div className="p-1 mx-4 mb-1 editTitleInput">
             <input
               maxlength="50"
+              className={` p-2 mb-0 h5`}
               required
               value={todo.title}
               placeholder="No Title"
@@ -69,8 +80,10 @@ const Todoitem = ({
               }}
             />
           </div>
-          <div>
+          <div className="editDescSection mx-4 p-1">
             <textarea
+              // rows="4"
+              className={`editDescInput p-1`}
               value={todo.desc}
               placeholder="No Description"
               onChange={(e) => {
