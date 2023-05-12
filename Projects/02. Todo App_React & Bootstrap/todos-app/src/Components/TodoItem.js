@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Collapse from "react-bootstrap/Collapse";
+import "../CSS/TodoItem.css";
 
 const Todoitem = ({
   todo,

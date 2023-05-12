@@ -1,0 +1,132 @@
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+input[type="checkbox"]:checked {
+  accent-color: #e9f08e;
+  width: 15px;
+  height: 15px;
+}
+
+.taskBox {
+  height: 140px;
+  background-color: #082837;
+  border-radius: 20px;
+  box-shadow: none;
+  transition: all 0.5s ease-in-out;
+}
+.taskBoxHeight {
+  height: 280px;
+}
+.checkedTaskBox {
+  opacity: 0.7;
+}
+.checkedTaskBox:hover {
+  opacity: 1;
+}
+.uncheckedTaskBox:hover {
+  box-shadow: 2px 2px 20px #e9f08e;
+  scale: 1.05;
+}
+.blur:hover .taskBox:not(:hover) {
+  opacity: 0.4;
+}
+.saveHeading {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.taskTitle {
+  font-size: 1.1rem;
+  color: #c8f1eb;
+  width: 90%;
+}
+
+.taskDescSection {
+  background-color: #c8f1eb;
+  height: 56%;
+  border-radius: 10px;
+}
+
+.taskDesc {
+  color: #082837;
+  height: 75%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}
+.taskDesc:hover {
+  -webkit-line-clamp: initial;
+  overflow: auto;
+}
+
+.editTitleInput {
+  background-color: #082837;
+  border-radius: 10px;
+}
+.editTitleInput input {
+  color: #c8f1eb;
+  border: dashed #c8f1eb 2px;
+  width: 100%;
+  background-color: transparent;
+  border-radius: 8px;
+}
+.editBox {
+  background-color: #c8f1eb;
+}
+.editDescSection {
+  height: 55%;
+  border-radius: 10px;
+  background-color: #082837;
+}
+.editDescInput {
+  color: #c8f1eb;
+  resize: none;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: dashed #c8f1eb 2px;
+  border-radius: 8px;
+}
+.dateTime {
+  color: #447ca4;
+  font-weight: 600;
+}
+
+.taskChecked {
+  text-decoration: 2px line-through #051a26;
+  color: #4f9693;
+}
+
+.editDeleteButton:hover {
+  background-color: #447ca4;
+}
+
+/* Scrollbar styling */
+.taskDesc::-webkit-scrollbar,
+.editDescInput::-webkit-scrollbar {
+  width: 5px;
+}
+
+.taskDesc::-webkit-scrollbar-track,
+.editDescInput::-webkit-scrollbar-track {
+  background-color: #447ca4;
+  height: 80%;
+}
+
+.taskDesc::-webkit-scrollbar-thumb,
+.editDescInput::-webkit-scrollbar-thumb {
+  background-color: #e9f08e;
+}
+
+/* Style of Scrollbar For FireFox browser */
+.taskDesc,
+.editDescInput {
+  scrollbar-width: thin;
+  scrollbar-color: #e9f08e #447ca4;
+}
