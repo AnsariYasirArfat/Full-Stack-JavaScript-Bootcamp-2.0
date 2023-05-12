@@ -24,13 +24,12 @@ const Todos = (props) => {
   }
 
   return (
-    <div style={myStyle}>
-      <h3>TaskDashBoardt</h3>
-      {/* Description radio switch */}
-      <div>
-        <h6>Description:</h6>
-        <div>
-          <label>
+    <div className="mx-4 mt-4 " style={myStyle}>
+      <h3 className="text-center taskList ">TaskDashBoard</h3>
+      <div className="m-5 d-flex align-items-center justify-content-center">
+        <h6 className="mb-0 descripStatus me-3">Description:</h6>
+        <div className="descripStatusBox px-2 pb-1">
+          <label className="me-3  radio-label">
             <input
               type="radio"
               value="show"
@@ -39,10 +38,10 @@ const Todos = (props) => {
               aria-controls="example-collapse-text"
               aria-checked={open}
             />
-            <span></span>
+            <span className="radio-custom me-2"></span>
             Show
           </label>
-          <label>
+          <label className="radio-label">
             <input
               type="radio"
               value="hide"
@@ -51,21 +50,20 @@ const Todos = (props) => {
               aria-controls="example-collapse-text"
               aria-checked={!open}
             />
-            <span></span>
+            <span className="radio-custom me-2"></span>
             Hide
           </label>
         </div>
       </div>
-
-      <div>
+      <div className={`row ${isHoveredOnBox && "blur"}`}>
         {/* Remaining tasks Section  */}
-        <div>
-          <p>
-            Tasks Remaining: <span> {remainTask.length}</span>
+        <div className="col-xl-8 d-flex flex-column my-4">
+          <p className="subHeading fw-bold text-center ">
+            Tasks Remaining: <span className="count"> {remainTask.length}</span>
           </p>
-          <div>
+          <div className={`row row-cols-md-2 overflow-auto remainingSection `}>
             {remainTask.length === 0 ? (
-              <h5>No Remaining task here!</h5>
+              <h5 className="text-center emptyTask">No Remaining task here!</h5>
             ) : (
               remainTask.map((todo) => {
                 return (
@@ -75,8 +73,8 @@ const Todos = (props) => {
                     onDelete={props.onDelete}
                     onEdit={props.onEdit}
                     onChecked={props.onChecked}
-                    DescriptionState={open}
                     HoveredOnBox={setIsHoveredOnBox}
+                    DescriptionState={open}
                   />
                 );
               })
@@ -84,14 +82,16 @@ const Todos = (props) => {
           </div>
         </div>
         {/* Completed tasks Section */}
-        <div>
-          <p>
+        <div className="col-xl-4 d-flex flex-column my-4">
+          <p className="subHeading fw-bold text-center ">
             Finished Tasks:
-            <span> {completedTask.length}</span>
+            <span className="count"> {completedTask.length}</span>
           </p>
-          <div>
+          <div
+            className={`row  row-cols-md-2 row-cols-xl-1  overflow-auto completedTasks`}
+          >
             {completedTask.length === 0 ? (
-              <h5>No Completed task here!</h5>
+              <h5 className="text-center emptyTask">No Completed task here!</h5>
             ) : (
               completedTask.map((todo) => {
                 return (
@@ -101,8 +101,8 @@ const Todos = (props) => {
                     onDelete={props.onDelete}
                     onEdit={props.onEdit}
                     onChecked={props.onChecked}
-                    DescriptionState={open}
                     HoveredOnBox={setIsHoveredOnBox}
+                    DescriptionState={open}
                   />
                 );
               })
