@@ -83,7 +83,6 @@ const Todoitem = ({
           </div>
           <div className="editDescSection mx-4 p-1">
             <textarea
-              // rows="4"
               className={`editDescInput p-1`}
               value={todo.desc}
               placeholder="No Description"

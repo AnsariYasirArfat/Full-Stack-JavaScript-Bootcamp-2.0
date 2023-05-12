@@ -1,7 +1,8 @@
-import Header from "./Components/Header";
+import Header from "./Mycomponents/Header";
+import Footer from "./Mycomponents/Footer";
 import Todos from "./Mycomponents/Todos";
 import AddTodo from "./Mycomponents/AddTodo";
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./CSS/App.css";
@@ -103,6 +104,7 @@ function App() {
         onDelete={onDelete}
         onEdit={onEdit}
         onChecked={onChecked}
+        filterText={filterText}
       />
       <ToastContainer autoClose={1000} />
       <Footer />

@@ -27,9 +27,9 @@ const DisplayDate = () => {
   };
 
   return (
-    <div className="col m-auto m-3" style={color}>
-      <p className="h5 fw-bold">{formattedTime}</p>
-      <p className="fw-semibold">{formattedDate}</p>
+    <div className="col m-auto d-none d-md-block" style={color}>
+      <p className="h5 fw-bold mb-0">{formattedTime}</p>
+      <p className="fw-semibold mb-0">{formattedDate}</p>
     </div>
   );
 };
