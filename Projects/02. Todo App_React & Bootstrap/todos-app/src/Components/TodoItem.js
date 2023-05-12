@@ -87,9 +87,16 @@ const Todoitem = ({
   } else {
     todoItem = (
       <>
-        <div onMouseEnter={MouseEnterBox} onMouseLeave={MouseLeaveBox}>
-          <div>
+        <div
+          onMouseEnter={MouseEnterBox}
+          onMouseLeave={MouseLeaveBox}
+          className={`m-4 taskBox d-flex flex-column justify-content-between${
+            todo.done === true ? " checkedTaskBox " : " uncheckedTaskBox"
+          }  ${DescriptionState && "taskBoxHeight"} `}
+        >
+          <div className="d-flex align-items-center p-3 taskTitleSection ">
             <input
+              className="me-3"
               type="checkbox"
               checked={todo.done}
               onChange={(e) => {
@@ -100,23 +107,41 @@ const Todoitem = ({
                 checkedBox();
               }}
             />
-            <h5>{todo.title}</h5>
+            <h5
+              className={`m-0 taskTitle  ${
+                todo.done === true && "taskChecked"
+              } `}
+            >
+              {todo.title}
+            </h5>
           </div>
           <Collapse in={DescriptionState}>
-            <div>
-              <p>{todo.desc}</p>
-              <small>{todo.todoDate + " at " + todo.todoTime}</small>
+            <div
+              className="taskDescSection mx-4 p-2"
+              id="example-collapse-text"
+            >
+              <p className={`taskDesc  ${todo.done === true && "taskChecked"}`}>
+                {todo.desc}
+              </p>
+              <small className="dateTime float-end">
+                {todo.todoDate + " at " + todo.todoTime}
+              </small>
             </div>
           </Collapse>
-          <div>
+          <div className="mb-2">
             {!DescriptionState && (
-              <div>
-                <small>{todo.todoDate + " at " + todo.todoTime}</small>
+              <div className="float-end mt-3 me-4">
+                <small className="dateTime">
+                  {todo.todoDate + " at " + todo.todoTime}
+                </small>
               </div>
             )}
-            <div>
+            <div className="float-start ms-4">
               {todo.done === false && (
-                <button onClick={() => setEditing(true)}>
+                <button
+                  onClick={() => setEditing(true)}
+                  className="btn editDeleteButton btn-sm me-2"
+                >
                   <img
                     src="https://img.icons8.com/3d-fluency/94/null/edit.png"
                     alt="Edit"
@@ -124,7 +149,10 @@ const Todoitem = ({
                   />
                 </button>
               )}
-              <button onClick={() => onDelete(todo)}>
+              <button
+                className="btn editDeleteButton  btn-sm"
+                onClick={() => onDelete(todo)}
+              >
                 <img
                   src="https://img.icons8.com/plasticine/100/null/filled-trash.png"
                   alt="Delete"
