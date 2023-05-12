@@ -105,6 +105,7 @@ function App() {
         onChecked={onChecked}
       />
       <ToastContainer autoClose={1000} />
+      <Footer />
     </>
   );
 }
