@@ -1,0 +1,136 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  color: #fff;
+}
+h1 {
+  font-size: 1.6rem;
+}
+p {
+  font-size: 1rem;
+}
+.logo {
+  background-color: #659fcc;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar {
+  padding: 10px;
+  background-color: #ababa9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  background-color: #797977;
+  padding: 20px;
+
+  color: #c5c6c0;
+}
+.section-b {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+.subsec-b {
+  background-color: #b2d5eb;
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 10px;
+  }
+  header {
+    height: 60px;
+    margin: 10px;
+  }
+  .logo {
+    margin-right: 10px;
+  }
+  .section {
+    height: 140px;
+    margin: 0px 10px 10px;
+    padding: 10px;
+  }
+  .section-b {
+    display: flex;
+    flex-direction: column;
+    margin-inline: 10px;
+  }
+  .subsec-b {
+    height: 90px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+  header {
+    height: 80px;
+    margin: 15px;
+  }
+  .section {
+    height: 180px;
+    margin: 0px 15px 15px;
+  }
+  .section-b {
+    height: 180px;
+    margin: 0px 15px 15px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+  header {
+    height: 100px;
+    margin: 18px;
+  }
+  .logo {
+    margin-right: 18px;
+  }
+  .section {
+    height: 240px;
+    margin: 0px 18px 18px;
+  }
+  .section-b {
+    height: 200px;
+    margin: 0px 18px 18px;
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  html {
+    font-size: 18px;
+  }
+  header {
+    height: 120px;
+    margin: 20px;
+  }
+  .logo {
+    margin-right: 20px;
+  }
+  .section {
+    height: 300px;
+    margin: 0px 20px 20px;
+  }
+  .section-b {
+    height: 240px;
+    margin: 0px 20px 20px;
+  }
+}
