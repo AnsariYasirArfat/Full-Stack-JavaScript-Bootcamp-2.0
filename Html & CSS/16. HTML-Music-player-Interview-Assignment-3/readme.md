@@ -1,6 +1,6 @@
 # HTML-Music-player-Interview-Assignment-3.
 
-This resume assignment is made just using Html.
+This Music-player assignment is made just using Html.
 
 _[click the button to view the website]_
 
