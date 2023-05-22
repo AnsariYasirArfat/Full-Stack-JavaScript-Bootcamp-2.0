@@ -1,0 +1,45 @@
+.periodic-table {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 5px;
+  padding: 10px;
+}
+
+.element {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  padding: 8px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+  width: 55px;
+}
+
+.element span {
+  font-size: 14px;
+  font-weight: bold;
+}
+.right-margin {
+  margin-right: 15px;
+}
+.top-margin {
+  margin-top: 15px;
+}
+
+.red {
+  background-color: #ff9999;
+}
+
+.yellow {
+  background-color: #fdff8c;
+}
+.green {
+  background-color: #9bff99;
+}
+
+.blue {
+  background-color: #99ccff;
+}
