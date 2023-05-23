@@ -9,11 +9,17 @@ This is a simple React project that demonstrates how to create a counter that ca
 3. HTML
 4. CSS
 
+---
+
 ## Demo
 
 You can also see a live demo of this project here.
 
-[![Website link](https://img.shields.io/badge/Website-Link-green)](https://react-assignment-1-increment-decrement-number.vercel.app/)
+[![Website link](https://img.shields.io/badge/Website-Link-green)](https://counter-app-yasir.netlify.app/)
+
+Or click the link below If above button doesn't work:
+
+https://counter-app-yasir.netlify.app/
 
 ## Here is Output:
 
