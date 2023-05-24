@@ -1,7 +1,11 @@
-import "./App.css";
+import Calculator from "./Calculator";
 
-function App() {
-  return <>Hello World!</>;
-}
+const App = () => {
+  return (
+    <div className="flex justify-center items-center h-screen bg-teal-500">
+      <Calculator />
+    </div>
+  );
+};
 
 export default App;
