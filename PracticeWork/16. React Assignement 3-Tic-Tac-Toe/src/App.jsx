@@ -1,11 +1,11 @@
-import "./App.css";
+import TicTacToe from "./TicTacToe";
 
-function App() {
+const App = () => {
   return (
-    <>
-      <h1 className="text-5xl font-bold">Hello World!</h1>{" "}
-    </>
+    <div className="flex justify-center items-center h-screen">
+      <TicTacToe />
+    </div>
   );
-}
+};
 
 export default App;
