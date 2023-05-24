@@ -31,7 +31,7 @@ const TicTacToe = () => {
       </div>
       <div>
         <button
-          className="mt-4 bg-slate-500 p-2 text-xl font-bold rounded-lg"
+          className="mt-4 bg-slate-300 p-2 text-xl font-bold rounded"
           onClick={handleReset}
         >
           Reset
