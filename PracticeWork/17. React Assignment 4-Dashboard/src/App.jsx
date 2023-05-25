@@ -1,35 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { createContext, useState } from "react";
+import PropTypes from "prop-types";
+import Counter from "./Components/Counter";
+import Dashboard from "./Components/Dashboard";
+// Create the context
+const ThemeContext = createContext();
 function App() {
-  const [count, setCount] = useState(0)
-
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
+  };
+  const darkTheme = "bg-zinc-800 text-zinc-200";
+  const lightTheme = "bg-zinc-200 text-zinc-800";
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <ThemeContext.Provider
+        value={{ theme, toggleTheme, darkTheme, lightTheme }}
+      >
+        <div style={{ height: "100vh", boxSizing: "border-box" }}>
+          <Dashboard />
+          <Counter />
+        </div>
+      </ThemeContext.Provider>
     </>
-  )
+  );
 }
-
-export default App
+App.propTypes = {
+  children: PropTypes.node,
+};
+export default App;
+export { ThemeContext };
