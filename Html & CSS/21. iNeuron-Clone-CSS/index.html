@@ -8,6 +8,42 @@
       Elevate Your Career with Comprehensive Professional Courses | iNeuron.ai
     </title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .text-custom-blue {
+        color: #233c7b;
+      }
+
+      /* Scroller CSS Style */
+      /* Chrome */
+      ::-webkit-scrollbar {
+        width: 8px; /* Width of the scrollbar */
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #edecf7; /* Track color */
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background: #f7a654; /* Thumb color */
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+        background: #edab68; /* Thumb color on hover */
+      }
+
+      /* Firefox */
+      * {
+        scrollbar-color: #888 #edecf7; /* Thumb and track colors */
+      }
+
+      *::-moz-scrollbar-thumb {
+        background-color: #f7a654; /* Thumb color */
+      }
+
+      *::-moz-scrollbar-thumb:hover {
+        background-color: #e69f58; /* Thumb color on hover */
+      }
+    </style>
   </head>
   <body>
     <!-- Navigation Bar Starts -->
@@ -93,7 +129,7 @@
                 type="text"
                 id="search-navbar"
                 class="block w-full p-2 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="Search 2..."
+                placeholder="What do you want to learn?"
               />
             </div>
           </div>
@@ -145,7 +181,7 @@
               <li>
                 <a
                   href="#"
-                  class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:mx-10"
+                  class="block py-2 pl-3 pr-4 text-gray-900 rounded md:bg-transparent md:hover:text-blue-700 md:p-0 md:mx-10"
                   aria-current="page"
                   >My Courses</a
                 >
@@ -165,7 +201,9 @@
               </li>
             </ul>
           </div>
-          <div class="flex md:justify-center text-md font-bold md:mt-5">
+          <div
+            class="flex md:justify-center text-md font-semibold md:mt-5 text-[#233c7b]"
+          >
             <ul
               class="w-full flex flex-col p-4 md:p-0 rounded-lg bg-gray-50 md:flex-row md:justify-center md:space-x-4 lg:space-x-10 xl:space-x-16 md:mx-10 md:border-0 md:bg-white"
             >
@@ -311,29 +349,39 @@
     <!-- Section 3 starts  -->
     <section>
       <div class="container mx-auto py-20 max-w-7xl">
-        <h1 class="text-center text-5xl font-bold">
+        <h1 class="text-center text-5xl font-bold text-custom-blue">
           “Pure Hardwork, No Shortcuts!”
         </h1>
-        <hr
-          class="w-32 mx-auto border-2 bg-orange-600 border-orange-600 mt-3"
-        />
+        <hr class="w-32 mx-auto border-2 border-orange-400 mt-3" />
         <div
           class="flex flex-col lg:flex-row items-center justify-around mt-16 gap-10 lg:gap-20 xl:gap-24 2xl:gap-52"
         >
           <div class="flex flex-col gap-2 items-center justify-around">
             <img src="./assets/book.png" alt="icon" class="pb-3 w-40" />
-            <h2 class="text-3xl xl:text-4xl font-bold">300+</h2>
-            <p class="text-2xl xl:text-3xl font-bold">Different Courses</p>
+            <h2 class="text-3xl xl:text-4xl font-bold text-custom-blue">
+              300+
+            </h2>
+            <p class="text-2xl xl:text-3xl font-bold text-gray-600">
+              Different Courses
+            </p>
           </div>
           <div class="flex flex-col gap-2 items-center justify-around">
             <img src="./assets/student.png" alt="icon" class="pb-3 w-40" />
-            <h2 class="text-3xl xl:text-4xl font-bold">4,00,000+</h2>
-            <p class="text-2xl xl:text-3xl font-bold">Students Enrolled</p>
+            <h2 class="text-3xl xl:text-4xl font-bold text-custom-blue">
+              4,00,000+
+            </h2>
+            <p class="text-2xl xl:text-3xl font-bold text-gray-600">
+              Students Enrolled
+            </p>
           </div>
           <div class="flex flex-col gap-2 items-center justify-around">
             <img src="./assets/creditcard.png" alt="icon" class="pb-3 w-40" />
-            <h2 class="text-3xl xl:text-4xl font-bold">10,000+</h2>
-            <p class="text-2xl xl:text-3xl font-bold">Successful Transition</p>
+            <h2 class="text-3xl xl:text-4xl font-bold text-custom-blue">
+              10,000+
+            </h2>
+            <p class="text-2xl xl:text-3xl font-bold text-gray-600">
+              Successful Transition
+            </p>
           </div>
         </div>
       </div>
@@ -343,7 +391,7 @@
     <!-- section 4 starts -->
     <section class="bg-slate-200">
       <div>
-        <h1 class="text-center text-5xl font-bold pt-20 pb-10">
+        <h1 class="text-center text-5xl font-bold pt-20 pb-10 text-custom-blue">
           Our Achiever’s Work with
         </h1>
         <div class="flex items-center justify-between px-10 py-20">
@@ -369,8 +417,10 @@
     <section>
       <div class="pt-16">
         <div class="pb-20">
-          <h1 class="text-center text-5xl font-bold">Live Program</h1>
-          <p class="text-center pt-5 text-lg">
+          <h1 class="text-center text-5xl font-bold text-custom-blue">
+            Live Program
+          </h1>
+          <p class="text-center pt-5 text-lg text-gray-600">
             Get your program with live "instructor led" learning.
           </p>
         </div>
@@ -381,7 +431,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/fsjs2.0.jpg" alt="fsjs2.0" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Full Stack JavaScript Bootcamp 2.0
               </p>
             </div>
@@ -407,7 +457,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/devops.jpg" alt="devops" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Be A DevOps Pro
               </p>
             </div>
@@ -432,7 +482,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/bigdata.jpg" alt="bigdata" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Job Guaranteed BigData
               </p>
             </div>
@@ -463,8 +513,10 @@
     <section>
       <div class="pt-16">
         <div class="pb-20">
-          <h1 class="text-center text-5xl font-bold">Affordable Programs</h1>
-          <p class="text-center pt-5 text-lg">
+          <h1 class="text-center text-5xl font-bold text-custom-blue">
+            Affordable Programs
+          </h1>
+          <p class="text-center pt-5 text-lg text-gray-700">
             Find your favourite courses in pocket-friendly ways.
           </p>
         </div>
@@ -475,7 +527,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/htmlcss.jpg" alt="htmlcss" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 HTML & CSS for Web <br />
                 Development
               </p>
@@ -501,7 +553,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/c++.jpg" alt="C++" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 C++ Bootcamp for Beginners
               </p>
             </div>
@@ -526,7 +578,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/java.jpg" alt="java" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Java Bootcamp for Beginners
               </p>
             </div>
@@ -556,8 +608,10 @@
     <section>
       <div class="pt-16">
         <div class="pb-20">
-          <h1 class="text-center text-5xl font-bold">Community Programs</h1>
-          <p class="text-center pt-5 text-lg">
+          <h1 class="text-center text-5xl font-bold text-custom-blue">
+            Community Programs
+          </h1>
+          <p class="text-center pt-5 text-lg text-gray-700">
             Open to all pro-live classes on Youtube for free.
           </p>
         </div>
@@ -568,7 +622,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/ppt.jpg" alt="ppt" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Pre Placement Training Program
               </p>
             </div>
@@ -590,7 +644,7 @@
                 src="./assets/impwebdevelop.jpg"
                 alt="impwebdevelop"
               />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Masterclass Why study Web <br />
                 Development & DSA Usecases...
               </p>
@@ -613,7 +667,7 @@
                 src="./assets/typescript.jpg"
                 alt="typescript"
               />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 TypeScript Crash Course
               </p>
             </div>
@@ -636,8 +690,10 @@
     <section>
       <div class="pt-16">
         <div class="pb-20">
-          <h1 class="text-center text-5xl font-bold">One Neuron</h1>
-          <p class="text-center pt-5 text-lg">
+          <h1 class="text-center text-5xl font-bold text-custom-blue">
+            One Neuron
+          </h1>
+          <p class="text-center pt-5 text-lg text-gray-700">
             New Neurons all day, every day.
           </p>
         </div>
@@ -652,7 +708,7 @@
                 src="./assets/bigdataprojects.jpg"
                 alt="bigdataprojects"
               />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Big Data Projects Neuron
               </p>
               <p class="text-sm font-semibold text-left">
@@ -679,7 +735,7 @@
                 src="./assets/datascience.jpg"
                 alt="datascience"
               />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Data science Projects Neuron
               </p>
               <p class="text-sm font-semibold text-left">
@@ -706,7 +762,7 @@
                 src="./assets/techneuron.jpg"
                 alt="techneuron"
               />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Tech Neuron
               </p>
               <p class="text-sm font-semibold text-left">
@@ -733,8 +789,10 @@
     <section>
       <div class="pt-16">
         <div class="pb-20">
-          <h1 class="text-center text-5xl font-bold">Test Series</h1>
-          <p class="text-center pt-5 text-lg">
+          <h1 class="text-center text-5xl font-bold text-custom-blue">
+            Test Series
+          </h1>
+          <p class="text-center pt-5 text-lg text-gray-700">
             Quiz-based courses to prepare you for interviews.
           </p>
         </div>
@@ -749,7 +807,7 @@
                 src="./assets/JavaScript.jpg"
                 alt="JavaScript"
               />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 JavaScript Coding Interview <br />
                 Preparation
               </p>
@@ -767,7 +825,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/DSA.jpg" alt="DSA" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Data Structure and Algorithm <br />
                 Interview Preparation
               </p>
@@ -785,7 +843,7 @@
           >
             <div class="mx-auto">
               <img class="h-44" src="./assets/DBMS.jpg" alt="DBMS" />
-              <p class="text-xl font-semibold text-blue-800 mt-2">
+              <p class="text-xl font-semibold text-custom-blue mt-2">
                 Pro Aptitude - DBMS
               </p>
             </div>
@@ -806,13 +864,13 @@
     <!-- section 10: Hackathon starts -->
     <section>
       <div class="py-20">
-        <h1 class="text-center text-5xl font-bold pb-20">
+        <h1 class="text-center text-5xl font-bold pb-20 text-custom-blue">
           Hackathon's We Conducted
         </h1>
         <img src="./assets/Hackathon.png" alt="Hackathon" class="mx-auto" />
       </div>
       <div class="bg-slate-200">
-        <h1 class="text-center text-5xl font-bold pt-20">
+        <h1 class="text-center text-5xl font-bold pt-20 text-custom-blue">
           Hackathon Companies
         </h1>
         <div class="flex items-center justify-between px-10 py-20">
@@ -839,13 +897,15 @@
     <!-- Section 10: Hackathon Ends  -->
     <!-- section 11: Our Products starts -->
     <section class="py-20">
-      <h1 class="text-center text-5xl font-bold pb-20">Our Products</h1>
+      <h1 class="text-center text-5xl font-bold pb-20 text-custom-blue">
+        Our Products
+      </h1>
       <div class="flex gap-20 items-center justify-center flex-wrap">
         <div class="flex flex-col gap-4 items-center justify-center w-80 h-80">
           <img src="./assets/NeuronLab.png" alt="NeuronLab" />
 
           <h2
-            class="text-center text-xl lg:text-2xl text-blue-800 font-semibold"
+            class="text-center text-xl lg:text-2xl text-custom-blue font-semibold"
           >
             Neuro Lab
           </h2>
@@ -857,7 +917,7 @@
         <div class="flex flex-col gap-4 items-center justify-center w-80 h-80">
           <img src="./assets/JobPortal.png" alt="JobPortal" width="160" />
           <h2
-            class="text-center text-xl lg:text-2xl text-blue-800 font-semibold"
+            class="text-center text-xl lg:text-2xl text-custom-blue font-semibold"
           >
             Job Portal
           </h2>
@@ -875,7 +935,7 @@
           />
 
           <h2
-            class="text-center text-xl lg:text-2xl text-blue-800 font-semibold"
+            class="text-center text-xl lg:text-2xl text-custom-blue font-semibold"
           >
             Internship portal
           </h2>
@@ -889,7 +949,7 @@
           <img src="./assets/affiliate.png" alt="affiliate" width="160" />
 
           <h2
-            class="text-center text-xl lg:text-2xl text-blue-800 font-semibold"
+            class="text-center text-xl lg:text-2xl text-custom-blue font-semibold"
           >
             Become an affiliate
           </h2>
@@ -903,7 +963,7 @@
           <img src="./assets/fame.png" alt="fame" />
 
           <h2
-            class="text-center text-xl lg:text-2xl text-blue-800 font-semibold"
+            class="text-center text-xl lg:text-2xl text-custom-blue font-semibold"
           >
             Hall of fame
           </h2>
@@ -918,7 +978,7 @@
     <!-- Section 11: Our Products Ends  -->
     <!-- section 12: Our Partnered Institutions starts -->
     <section class="py-20">
-      <h1 class="text-center text-5xl font-bold pb-20">
+      <h1 class="text-center text-5xl font-bold pb-20 text-custom-blue">
         Our Partnered Institutions
       </h1>
       <div
@@ -994,7 +1054,10 @@
       </div>
     </footer>
     <!-- Footer Ends -->
-
+    <!-- Grabber -->
+    <div class="fixed bottom-5 right-5 z-40">
+      <img src="./assets/Grabber.svg" alt="Grabber" width="100" />
+    </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
   </body>
 </html>
