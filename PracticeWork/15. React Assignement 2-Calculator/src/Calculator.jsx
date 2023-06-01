@@ -1,19 +1,56 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Calculator = () => {
   const [display, setDisplay] = useState("0");
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyPress);
+    return () => {
+      document.removeEventListener("keydown", handleKeyPress);
+    };
+  }, []);
+
+  const handleKeyPress = (event) => {
+    const { key } = event;
+    const allowedKeys = /^[0-9+\-*/.=]|Backspace$|^Escape$/;
+
+    if (allowedKeys.test(key)) {
+      event.preventDefault();
+
+      switch (key) {
+        case "Backspace":
+          handleClear();
+          break;
+        case "=":
+        case "Enter":
+          handleCalculate();
+          break;
+        case "Escape":
+          handleAllClear();
+          break;
+        default:
+          handleClick(key);
+          break;
+      }
+    }
+  };
 
   const handleClick = (value) => {
     if (display === "0") {
       setDisplay(value);
     } else {
-      setDisplay(display + value);
+      setDisplay((prevDisplay) => prevDisplay + value);
     }
   };
 
   const handleClear = () => {
-    const newDisplay = display.slice(0, -1);
-    setDisplay(newDisplay.length > 0 ? newDisplay : "0");
+    setDisplay((prevDisplay) => {
+      if (prevDisplay.length > 1) {
+        return prevDisplay.slice(0, -1);
+      } else {
+        return "0";
+      }
+    });
   };
 
   const handleAllClear = () => {
