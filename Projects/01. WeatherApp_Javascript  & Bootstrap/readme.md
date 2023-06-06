@@ -38,10 +38,10 @@ https://weather-app-using-js-html-bootstrape.netlify.app/
 
 ### **Gif 1: "Weather App in Action"**
 
-## ![output](./working.gif)
+## ![working](./images/output1.gif)
 
 ### **Gif 2: "Responsive Design Demonstration"**
 
-## ![output](./responsiveness.gif)
+## ![responsiveness](./images/output2.gif)
 
 ---
